@@ -281,7 +281,7 @@ p {
 .scroll-top {
   width: 45px;
   height: 45px;
-  background: #5864FF;
+  background: #6f9c26;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -307,7 +307,7 @@ p {
 
 .scroll-top:hover {
   color: #fff;
-  background: rgba(88, 100, 255, 0.8);
+  background: #6f9c26;
 }
 
 @keyframes animation1 {
@@ -838,8 +838,8 @@ p {
 }
 
 .hero-section .hero-content .main-btn {
-  border-color: #fff;
-  color: #fff;
+  border-color: #AAE051;
+  color: #AAE051;
 }
 
 .hero-section .hero-content .main-btn::after {
@@ -852,8 +852,8 @@ p {
   height: 40px;
   border-radius: 50%;
   background: #fff;
-  border: 3px solid #5864FF;
-  color: #5864FF;
+  border: 3px solid #AAE051;
+  color: #000;
   left: 15px;
   bottom: 0;
   z-index: 9;
@@ -935,7 +935,7 @@ p {
   height: 130px;
   border-radius: 50%;
   background: rgba(88, 100, 255, 0.1);
-  color: #5864FF;
+  color: #171717;
   margin: auto;
   margin-bottom: 30px;
   font-size: 65px;
@@ -1197,6 +1197,7 @@ p {
   }
 }
 
+
 .about-section .about-content ul li {
   padding-left: 40px;
   font-size: 20px;
@@ -1211,7 +1212,7 @@ p {
   width: 18px;
   height: 18px;
   border-radius: 50%;
-  background: #5864FF;
+  background: #171717;
   position: absolute;
   left: 0;
   top: 6.5px;
