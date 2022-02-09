@@ -616,12 +616,29 @@ p {
   }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+
 .sticky .navbar .navbar-nav .nav-item a {
   color: #fff;
 }
+}
+
+
+@media only screen and (max-device-width: 480px) {
+    /* write smartphone styles here */
+    .sticky .navbar .navbar-nav .nav-item a {
+      color: #171717;
+    }
+}
+
+@media only screen and (max-device-width: 768px) {
+  .sticky .navbar .navbar-nav .nav-item a {
+    color: #171717;
+  }
+}
 
 .sticky .navbar .navbar-nav .nav-item a::before {
-  color: #171717;
+  color: #ffffff;
 }
 
 .sticky .navbar .navbar-toggler .toggler-icon {
