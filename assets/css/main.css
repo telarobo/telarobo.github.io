@@ -617,7 +617,7 @@ p {
 }
 
 .sticky .navbar .navbar-nav .nav-item a {
-  color: #171717;
+  color: #fff;
 }
 
 .sticky .navbar .navbar-nav .nav-item a::before {
@@ -1512,6 +1512,53 @@ p {
   font-size: 18px;
   border-radius: 18px;
 }
+
+#form_id{
+  height: 700px; 
+   overflow: hidden;
+}
+
+/* @media (max-width: 767px) {
+  #form_id{
+    height: 700px; 
+     overflow: hidden;
+  }
+} */
+
+#span_footer{
+  margin-left:50px;
+  color:#fff;
+}
+
+
+@media only screen and (min-width: 589px) and (max-width: 767px) {
+  #form_id{
+    height: 710px; 
+     overflow: hidden;
+  }
+}
+
+@media only screen and (min-width: 465px) and (max-width: 589px) {
+  #form_id{
+    height: 810px; 
+     overflow: hidden;
+  }
+}
+
+@media only screen and (max-width: 465px) {
+  #form_id{
+    height: 850px; 
+     overflow: hidden;
+  }
+}
+
+
+/* @media only screen and (min-width: 569px) and (max-width: 702px) {
+  #form_id{
+    height: 700px; 
+     overflow: hidden;
+  }
+} */
 
 @media (max-width: 767px) {
   .subscribe-section .subscribe-wrapper .subscribe-form button {
@@ -2515,3 +2562,4 @@ p {
 .pb-225 {
   padding-bottom: 225px;
 }
+
