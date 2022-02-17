@@ -1,942 +1,2479 @@
 <!DOCTYPE html>
-<html class="no-js" lang="">
+<html lang="en" class="ud-dark">
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Telarobo - Supervised Driverless Lawn Mowing Equipment</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="assets/img/favicon.ico"
-    />
-    <!-- Place favicon.ico in the root directory -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Startup Tailwind CSS Template</title>
+    <meta
+    name="title"
+    content="Startup Tailwind | Startup Web Template for Tailwind CSS"
+  />
+  <meta
+    name="description"
+    content="Startup Tailwind is a complete Tailwind CSS template crafted specially for SaaS, Software Mobile App and Web App Sites. Comes with all essential components and pages you need to kickstart your SaaS websites."
+  />
 
-    <!-- ======== CSS here ======== -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/css/lineicons.css" />
-    <link rel="stylesheet" href="assets/css/tiny-slider.css" />
-    <link rel="stylesheet" href="assets/css/animate.css" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src='https://kit.fontawesome.com/f0ed309663.js' crossorigin='anonymous'></script>
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta
+    property="og:url"
+    content="https://startup-tailwind.preview.uideck.com/"
+  />
+  <meta
+    property="og:title"
+    content="Startup Tailwind | SaaS Web Template for Tailwind CSS"
+  />
+  <meta
+    property="og:description"
+    content="Startup Tailwind is a complete Tailwind CSS template crafted specially for SaaS, Software Mobile App and Web App Sites. Comes with all essential components and pages you need to kickstart your SaaS websites."
+  />
+  <meta property="og:image" content="" />
 
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta
+    property="twitter:url"
+    content="https://saas-tailwind.preview.uideck.com/"
+  />
+  <meta
+    property="twitter:title"
+    content="Startup Tailwind | SaaS Web Template for Tailwind CSS"
+  />
+  <meta
+    property="twitter:description"
+    content="Startup Tailwind is a complete Tailwind CSS template crafted specially for SaaS, Software Mobile App and Web App Sites. Comes with all essential components and pages you need to kickstart your SaaS websites."
+  />
+  <meta property="twitter:image" content="" />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/glightbox.min.css" />
+    <link rel="stylesheet" href="css/tailwind.css" />
 
+    <script src="js/wow.min.js"></script>
+    <script>
+      // ===== wow js
+      new WOW().init();
+    </script>
   </head>
-  <body>
-    <!--[if lte IE 9]>
-      <p class="browserupgrade">
-        You are using an <strong>outdated</strong> browser. Please
-        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
-        your experience and security.
-      </p>
-    <![endif]-->
-
-    <!-- ======== preloader start ======== -->
-    <div class="preloader">
-      <div class="loader">
-        <div class="spinner">
-          <div class="spinner-container">
-            <div class="spinner-rotator">
-              <div class="spinner-left">
-                <div class="spinner-circle"></div>
-              </div>
-              <div class="spinner-right">
-                <div class="spinner-circle"></div>
-              </div>
-            </div>
+  <body class="dark:ud-bg-black">
+    <!-- ====== Navbar Section Start -->
+    <header
+      class="
+        header
+        ud-bg-transparent
+        ud-absolute
+        ud-top-0
+        ud-left-0
+        ud-z-40
+        ud-w-full
+        ud-flex
+        ud-items-center
+      "
+    >
+      <div class="ud-container">
+        <div
+          class="
+            ud-flex ud-mx-[-16px] ud-items-center ud-justify-between ud-relative
+          "
+        >
+          <div class="ud-px-4 ud-w-60 ud-max-w-full">
+            <a href="index.html" class="ud-w-full ud-block ud-py-8 header-logo">
+              <img
+                src="images/logo/logo-custom.png"
+                alt="logo"
+                class="ud-w-full dark:ud-hidden"
+              />
+              <img
+                src="images/logo/logo-custom.png"
+                alt="logo"
+                class="ud-w-full ud-hidden dark:ud-block"
+              />
+            </a>
           </div>
-        </div>
-      </div>
-    </div>
-    <!-- preloader end -->
-
-    <!-- ======== header start ======== -->
-    <header class="header">
-      <div class="navbar-area">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-12">
-              <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand" href="index.html">
-                  <img src="assets/img/logo/logo-custom.png" alt="Logo" />
-                </a>
-                <button
-                  class="navbar-toggler"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#navbarSupportedContent"
-                  aria-controls="navbarSupportedContent"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
-                  <span class="toggler-icon"></span>
-                  <span class="toggler-icon"></span>
-                  <span class="toggler-icon"></span>
-                </button>
-
-                <div
-                  class="collapse navbar-collapse sub-menu-bar"
-                  id="navbarSupportedContent"
-                >
-                  <ul id="nav" class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                      <a class="page-scroll active" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="page-scroll" href="#features">Our Advantage</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="page-scroll" href="#about">How it works</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="page-scroll" href="#contact">Contact us</a>
-                    </li>
-                  </ul>
-                </div>
-                <!-- navbar collapse -->
-              </nav>
-              <!-- navbar -->
-            </div>
-          </div>
-          <!-- row -->
-        </div>
-        <!-- container -->
-      </div>
-      <!-- navbar area -->
-    </header>
-    <!-- ======== header end ======== -->
-
-    <!-- ======== hero-section start ======== -->
-    <section id="home" class="hero-section">
-      <div class="container">
-        <div class="row align-items-center position-relative">
-          <div class="col-lg-6">
-            <div class="hero-content">
-              <h1 class="wow fadeInUp" data-wow-delay=".4s">
-                Supervised Driverless Lawn Mowing Equipment
-              </h1>
-              <p class="wow fadeInUp" data-wow-delay=".6s">
-                Telarobo provides IoT & AI based tele-operated driverless lawn mowing solutions, making it way much cheaper and safer.</p>
-              <a
-                href="#contact"
-                class="main-btn border-btn btn-hover wow fadeInUp"
-                data-wow-delay=".6s"
-                >Contact us</a
+          <div
+            class="ud-flex ud-px-4 ud-justify-between ud-items-center ud-w-full"
+          >
+            <div>
+              <button
+                id="navbarToggler" aria-label="Mobile Menu"
+                class="
+                  ud-block
+                  ud-absolute
+                  ud-right-4
+                  ud-top-1/2
+                  ud-translate-y-[-50%]
+                  lg:ud-hidden
+                  focus:ud-ring-2
+                  ud-ring-primary ud-px-3 ud-py-[6px] ud-rounded-lg
+                "
               >
-              <a href="#features" class="scroll-bottom">
-                <i class="lni lni-arrow-down"></i>
-              </a>
+                <span
+                  class="
+                    ud-relative
+                    ud-w-[30px]
+                    ud-h-[2px]
+                    ud-my-[6px]
+                    ud-block
+                    ud-bg-dark
+                    dark:ud-bg-white
+                  "
+                ></span>
+                <span
+                  class="
+                    ud-relative
+                    ud-w-[30px]
+                    ud-h-[2px]
+                    ud-my-[6px]
+                    ud-block
+                    ud-bg-dark
+                    dark:ud-bg-white
+                  "
+                ></span>
+                <span
+                  class="
+                    ud-relative
+                    ud-w-[30px]
+                    ud-h-[2px]
+                    ud-my-[6px]
+                    ud-block
+                    ud-bg-dark
+                    dark:ud-bg-white
+                  "
+                ></span>
+              </button>
+              <nav
+                id="navbarCollapse"
+                class="
+                  ud-absolute ud-py-5
+                  lg:ud-py-0 lg:ud-px-4
+                  xl:ud-px-6
+                  ud-bg-white
+                  dark:ud-bg-dark
+                  lg:dark:ud-bg-transparent lg:ud-bg-transparent
+                  ud-shadow-lg ud-rounded-lg ud-max-w-[250px] ud-w-full
+                  lg:ud-max-w-full lg:ud-w-full
+                  ud-right-4 ud-top-full ud-hidden
+                  lg:ud-block lg:ud-static lg:ud-shadow-none
+                "
+              >
+                <ul class="ud-blcok lg:ud-flex">
+                  <li class="ud-relative ud-group">
+                    <a
+                      href="#home"
+                      class="
+                        menu-scroll
+                        ud-text-base
+                        text-dark
+                        dark:ud-text-white
+                        group-hover:ud-opacity-70
+                        ud-py-2
+                        lg:ud-py-6 lg:ud-inline-flex lg:ud-px-0
+                        ud-flex ud-mx-8
+                        lg:ud-mr-0
+                      "
+                    >
+                      Home
+                    </a>
+                  </li>
+                  <li class="ud-relative ud-group">
+                    <a
+                      href="#about"
+                      class="
+                        menu-scroll
+                        ud-text-base
+                        text-dark
+                        dark:ud-text-white
+                        group-hover:ud-opacity-70
+                        ud-py-2
+                        lg:ud-py-6 lg:ud-inline-flex lg:ud-px-0
+                        ud-flex ud-mx-8
+                        lg:ud-mr-0 lg:ud-ml-8
+                        xl:ud-ml-12
+                      "
+                    >
+                    Our Advantage
+                    </a>
+                  </li>
+                  <li class="ud-relative ud-group">
+                    <a
+                      href="#features"
+                      class="
+                        menu-scroll
+                        ud-text-base
+                        text-dark
+                        dark:ud-text-white
+                        group-hover:ud-opacity-70
+                        ud-py-2
+                        lg:ud-py-6 lg:ud-inline-flex lg:ud-px-0
+                        ud-flex ud-mx-8
+                        lg:ud-mr-0 lg:ud-ml-8
+                        xl:ud-ml-12
+                      "
+                    >
+                      Solution
+                    </a>
+                  </li>
+                  <li class="ud-relative ud-group">
+                    <a
+                      href="#contact"
+                      class="
+                        menu-scroll
+                        ud-text-base
+                        text-dark
+                        dark:ud-text-white
+                        group-hover:ud-opacity-70
+                        ud-py-2
+                        lg:ud-py-6 lg:ud-inline-flex lg:ud-px-0
+                        ud-flex ud-mx-8
+                        lg:ud-mr-0 lg:ud-ml-8
+                        xl:ud-ml-12
+                      "
+                    >
+                      Contact us
+                    </a>
+                  </li>
+                </ul>
+              </nav>
             </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="hero-img wow fadeInUp" data-wow-delay=".5s">
-              <div class="mower_container">
-                <img class="mower_image" src="assets/img/hero/lawn-mower-new.svg" alt="" />
-                <!-- <button class="play_btn">Button</button> -->
-                <a href="https://www.youtube.com/watch?v=mSTCzNgDJy4" class="glightbox_video"> 
-                  <svg width="101" height="101" viewBox="0 0 131 131" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path class="inner-circle" d="M65 21C40.1488 21 20 41.1488 20 66C20 90.8512 40.1488 111 65 111C89.8512 111 110 90.8512 110 66C110 41.1488 89.8512 21 65 21Z" fill="#fff"></path>
-                      <circle class="outer_circle" cx="65.5" cy="65.5" r="64" stroke="#fff"></circle>
-                      <path class="play" fill-rule="evenodd" clip-rule="evenodd" d="M60 76V57L77 66.7774L60 76Z" fill="#171717"></path>
+            <div
+              class="ud-flex ud-justify-end ud-items-center ud-pr-16 lg:ud-pr-0"
+            >
+             
+              <div>
+                <label
+                  for="darkToggler"
+                  class="
+                    ud-cursor-pointer ud-w-9 ud-h-9
+                    md:ud-w-14 md:ud-h-14
+                    ud-rounded-full
+                    ud-flex
+                    ud-items-center
+                    ud-justify-center
+                    ud-bg-gray-2
+                    dark:ud-bg-dark-bg
+                    ud-text-black
+                    dark:ud-text-white
+                  "
+                >
+                  <input
+                    type="checkbox"
+                    name="darkToggler"
+                    id="darkToggler"
+                    class="ud-sr-only"
+                    aria-label="darkToggler"
+                  />
+                  <svg
+                    viewBox="0 0 23 23"
+                    class="
+                      ud-stroke-current
+                      dark:ud-hidden
+                      ud-w-5 ud-h-5
+                      md:ud-w-6 md:ud-h-6
+                    "
+                    fill="none"
+                  >
+                    <path
+                      d="M9.55078 1.5C5.80078 1.5 1.30078 5.25 1.30078 11.25C1.30078 17.25 5.80078 21.75 11.8008 21.75C17.8008 21.75 21.5508 17.25 21.5508 13.5C13.3008 18.75 4.30078 9.75 9.55078 1.5Z"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
                   </svg>
-                  </a>
-                <!-- <img width=30% class="play_btn" src="assets/img/play-button.svg"/> -->
+                  <svg
+                    viewBox="0 0 25 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="
+                      ud-hidden
+                      dark:ud-block
+                      ud-w-5 ud-h-5
+                      md:ud-w-6 md:ud-h-6
+                    "
+                  >
+                    <mask id="path-1-inside-1_977:1934" fill="white">
+                      <path
+                        d="M12.0508 16.5C10.8573 16.5 9.71271 16.0259 8.8688 15.182C8.02489 14.3381 7.55078 13.1935 7.55078 12C7.55078 10.8065 8.02489 9.66193 8.8688 8.81802C9.71271 7.97411 10.8573 7.5 12.0508 7.5C13.2443 7.5 14.3888 7.97411 15.2328 8.81802C16.0767 9.66193 16.5508 10.8065 16.5508 12C16.5508 13.1935 16.0767 14.3381 15.2328 15.182C14.3888 16.0259 13.2443 16.5 12.0508 16.5ZM12.0508 18C13.6421 18 15.1682 17.3679 16.2934 16.2426C17.4186 15.1174 18.0508 13.5913 18.0508 12C18.0508 10.4087 17.4186 8.88258 16.2934 7.75736C15.1682 6.63214 13.6421 6 12.0508 6C10.4595 6 8.93336 6.63214 7.80814 7.75736C6.68292 8.88258 6.05078 10.4087 6.05078 12C6.05078 13.5913 6.68292 15.1174 7.80814 16.2426C8.93336 17.3679 10.4595 18 12.0508 18ZM12.0508 0C12.2497 0 12.4405 0.0790176 12.5811 0.21967C12.7218 0.360322 12.8008 0.551088 12.8008 0.75V3.75C12.8008 3.94891 12.7218 4.13968 12.5811 4.28033C12.4405 4.42098 12.2497 4.5 12.0508 4.5C11.8519 4.5 11.6611 4.42098 11.5205 4.28033C11.3798 4.13968 11.3008 3.94891 11.3008 3.75V0.75C11.3008 0.551088 11.3798 0.360322 11.5205 0.21967C11.6611 0.0790176 11.8519 0 12.0508 0V0ZM12.0508 19.5C12.2497 19.5 12.4405 19.579 12.5811 19.7197C12.7218 19.8603 12.8008 20.0511 12.8008 20.25V23.25C12.8008 23.4489 12.7218 23.6397 12.5811 23.7803C12.4405 23.921 12.2497 24 12.0508 24C11.8519 24 11.6611 23.921 11.5205 23.7803C11.3798 23.6397 11.3008 23.4489 11.3008 23.25V20.25C11.3008 20.0511 11.3798 19.8603 11.5205 19.7197C11.6611 19.579 11.8519 19.5 12.0508 19.5ZM24.0508 12C24.0508 12.1989 23.9718 12.3897 23.8311 12.5303C23.6905 12.671 23.4997 12.75 23.3008 12.75H20.3008C20.1019 12.75 19.9111 12.671 19.7705 12.5303C19.6298 12.3897 19.5508 12.1989 19.5508 12C19.5508 11.8011 19.6298 11.6103 19.7705 11.4697C19.9111 11.329 20.1019 11.25 20.3008 11.25H23.3008C23.4997 11.25 23.6905 11.329 23.8311 11.4697C23.9718 11.6103 24.0508 11.8011 24.0508 12ZM4.55078 12C4.55078 12.1989 4.47176 12.3897 4.33111 12.5303C4.19046 12.671 3.99969 12.75 3.80078 12.75H0.800781C0.601869 12.75 0.411103 12.671 0.270451 12.5303C0.129799 12.3897 0.0507813 12.1989 0.0507812 12C0.0507813 11.8011 0.129799 11.6103 0.270451 11.4697C0.411103 11.329 0.601869 11.25 0.800781 11.25H3.80078C3.99969 11.25 4.19046 11.329 4.33111 11.4697C4.47176 11.6103 4.55078 11.8011 4.55078 12ZM20.5363 3.5145C20.6769 3.65515 20.7559 3.84588 20.7559 4.04475C20.7559 4.24362 20.6769 4.43435 20.5363 4.575L18.4153 6.6975C18.3455 6.76713 18.2628 6.82235 18.1717 6.86C18.0806 6.89765 17.983 6.91699 17.8845 6.91692C17.6855 6.91678 17.4947 6.83758 17.354 6.69675C17.2844 6.62702 17.2292 6.54425 17.1915 6.45318C17.1539 6.36211 17.1345 6.26452 17.1346 6.16597C17.1348 5.96695 17.214 5.77613 17.3548 5.6355L19.4758 3.5145C19.6164 3.3739 19.8072 3.29491 20.006 3.29491C20.2049 3.29491 20.3956 3.3739 20.5363 3.5145ZM6.74678 17.304C6.88738 17.4446 6.96637 17.6354 6.96637 17.8342C6.96637 18.0331 6.88738 18.2239 6.74678 18.3645L4.62578 20.4855C4.48433 20.6221 4.29488 20.6977 4.09823 20.696C3.90158 20.6943 3.71347 20.6154 3.57442 20.4764C3.43536 20.3373 3.35648 20.1492 3.35478 19.9526C3.35307 19.7559 3.42866 19.5665 3.56528 19.425L5.68628 17.304C5.82693 17.1634 6.01766 17.0844 6.21653 17.0844C6.4154 17.0844 6.60614 17.1634 6.74678 17.304ZM20.5363 20.4855C20.3956 20.6261 20.2049 20.7051 20.006 20.7051C19.8072 20.7051 19.6164 20.6261 19.4758 20.4855L17.3548 18.3645C17.2182 18.223 17.1426 18.0336 17.1443 17.8369C17.146 17.6403 17.2249 17.4522 17.3639 17.3131C17.503 17.1741 17.6911 17.0952 17.8877 17.0935C18.0844 17.0918 18.2738 17.1674 18.4153 17.304L20.5363 19.425C20.6769 19.5656 20.7559 19.7564 20.7559 19.9552C20.7559 20.1541 20.6769 20.3449 20.5363 20.4855ZM6.74678 6.6975C6.60614 6.8381 6.4154 6.91709 6.21653 6.91709C6.01766 6.91709 5.82693 6.8381 5.68628 6.6975L3.56528 4.575C3.49365 4.50582 3.43651 4.42306 3.39721 4.33155C3.3579 4.24005 3.33721 4.14164 3.33634 4.04205C3.33548 3.94247 3.35445 3.84371 3.39216 3.75153C3.42988 3.65936 3.48557 3.57562 3.55598 3.5052C3.6264 3.43478 3.71014 3.37909 3.80232 3.34138C3.89449 3.30367 3.99325 3.2847 4.09283 3.28556C4.19242 3.28643 4.29083 3.30712 4.38233 3.34642C4.47384 3.38573 4.5566 3.44287 4.62578 3.5145L6.74678 5.6355C6.81663 5.70517 6.87204 5.78793 6.90985 5.87905C6.94766 5.97017 6.96712 6.06785 6.96712 6.1665C6.96712 6.26515 6.94766 6.36283 6.90985 6.45395C6.87204 6.54507 6.81663 6.62783 6.74678 6.6975Z"
+                      />
+                    </mask>
+                    <path
+                      d="M12.0508 16.5C10.8573 16.5 9.71271 16.0259 8.8688 15.182C8.02489 14.3381 7.55078 13.1935 7.55078 12C7.55078 10.8065 8.02489 9.66193 8.8688 8.81802C9.71271 7.97411 10.8573 7.5 12.0508 7.5C13.2443 7.5 14.3888 7.97411 15.2328 8.81802C16.0767 9.66193 16.5508 10.8065 16.5508 12C16.5508 13.1935 16.0767 14.3381 15.2328 15.182C14.3888 16.0259 13.2443 16.5 12.0508 16.5ZM12.0508 18C13.6421 18 15.1682 17.3679 16.2934 16.2426C17.4186 15.1174 18.0508 13.5913 18.0508 12C18.0508 10.4087 17.4186 8.88258 16.2934 7.75736C15.1682 6.63214 13.6421 6 12.0508 6C10.4595 6 8.93336 6.63214 7.80814 7.75736C6.68292 8.88258 6.05078 10.4087 6.05078 12C6.05078 13.5913 6.68292 15.1174 7.80814 16.2426C8.93336 17.3679 10.4595 18 12.0508 18ZM12.0508 0C12.2497 0 12.4405 0.0790176 12.5811 0.21967C12.7218 0.360322 12.8008 0.551088 12.8008 0.75V3.75C12.8008 3.94891 12.7218 4.13968 12.5811 4.28033C12.4405 4.42098 12.2497 4.5 12.0508 4.5C11.8519 4.5 11.6611 4.42098 11.5205 4.28033C11.3798 4.13968 11.3008 3.94891 11.3008 3.75V0.75C11.3008 0.551088 11.3798 0.360322 11.5205 0.21967C11.6611 0.0790176 11.8519 0 12.0508 0V0ZM12.0508 19.5C12.2497 19.5 12.4405 19.579 12.5811 19.7197C12.7218 19.8603 12.8008 20.0511 12.8008 20.25V23.25C12.8008 23.4489 12.7218 23.6397 12.5811 23.7803C12.4405 23.921 12.2497 24 12.0508 24C11.8519 24 11.6611 23.921 11.5205 23.7803C11.3798 23.6397 11.3008 23.4489 11.3008 23.25V20.25C11.3008 20.0511 11.3798 19.8603 11.5205 19.7197C11.6611 19.579 11.8519 19.5 12.0508 19.5ZM24.0508 12C24.0508 12.1989 23.9718 12.3897 23.8311 12.5303C23.6905 12.671 23.4997 12.75 23.3008 12.75H20.3008C20.1019 12.75 19.9111 12.671 19.7705 12.5303C19.6298 12.3897 19.5508 12.1989 19.5508 12C19.5508 11.8011 19.6298 11.6103 19.7705 11.4697C19.9111 11.329 20.1019 11.25 20.3008 11.25H23.3008C23.4997 11.25 23.6905 11.329 23.8311 11.4697C23.9718 11.6103 24.0508 11.8011 24.0508 12ZM4.55078 12C4.55078 12.1989 4.47176 12.3897 4.33111 12.5303C4.19046 12.671 3.99969 12.75 3.80078 12.75H0.800781C0.601869 12.75 0.411103 12.671 0.270451 12.5303C0.129799 12.3897 0.0507813 12.1989 0.0507812 12C0.0507813 11.8011 0.129799 11.6103 0.270451 11.4697C0.411103 11.329 0.601869 11.25 0.800781 11.25H3.80078C3.99969 11.25 4.19046 11.329 4.33111 11.4697C4.47176 11.6103 4.55078 11.8011 4.55078 12ZM20.5363 3.5145C20.6769 3.65515 20.7559 3.84588 20.7559 4.04475C20.7559 4.24362 20.6769 4.43435 20.5363 4.575L18.4153 6.6975C18.3455 6.76713 18.2628 6.82235 18.1717 6.86C18.0806 6.89765 17.983 6.91699 17.8845 6.91692C17.6855 6.91678 17.4947 6.83758 17.354 6.69675C17.2844 6.62702 17.2292 6.54425 17.1915 6.45318C17.1539 6.36211 17.1345 6.26452 17.1346 6.16597C17.1348 5.96695 17.214 5.77613 17.3548 5.6355L19.4758 3.5145C19.6164 3.3739 19.8072 3.29491 20.006 3.29491C20.2049 3.29491 20.3956 3.3739 20.5363 3.5145ZM6.74678 17.304C6.88738 17.4446 6.96637 17.6354 6.96637 17.8342C6.96637 18.0331 6.88738 18.2239 6.74678 18.3645L4.62578 20.4855C4.48433 20.6221 4.29488 20.6977 4.09823 20.696C3.90158 20.6943 3.71347 20.6154 3.57442 20.4764C3.43536 20.3373 3.35648 20.1492 3.35478 19.9526C3.35307 19.7559 3.42866 19.5665 3.56528 19.425L5.68628 17.304C5.82693 17.1634 6.01766 17.0844 6.21653 17.0844C6.4154 17.0844 6.60614 17.1634 6.74678 17.304ZM20.5363 20.4855C20.3956 20.6261 20.2049 20.7051 20.006 20.7051C19.8072 20.7051 19.6164 20.6261 19.4758 20.4855L17.3548 18.3645C17.2182 18.223 17.1426 18.0336 17.1443 17.8369C17.146 17.6403 17.2249 17.4522 17.3639 17.3131C17.503 17.1741 17.6911 17.0952 17.8877 17.0935C18.0844 17.0918 18.2738 17.1674 18.4153 17.304L20.5363 19.425C20.6769 19.5656 20.7559 19.7564 20.7559 19.9552C20.7559 20.1541 20.6769 20.3449 20.5363 20.4855ZM6.74678 6.6975C6.60614 6.8381 6.4154 6.91709 6.21653 6.91709C6.01766 6.91709 5.82693 6.8381 5.68628 6.6975L3.56528 4.575C3.49365 4.50582 3.43651 4.42306 3.39721 4.33155C3.3579 4.24005 3.33721 4.14164 3.33634 4.04205C3.33548 3.94247 3.35445 3.84371 3.39216 3.75153C3.42988 3.65936 3.48557 3.57562 3.55598 3.5052C3.6264 3.43478 3.71014 3.37909 3.80232 3.34138C3.89449 3.30367 3.99325 3.2847 4.09283 3.28556C4.19242 3.28643 4.29083 3.30712 4.38233 3.34642C4.47384 3.38573 4.5566 3.44287 4.62578 3.5145L6.74678 5.6355C6.81663 5.70517 6.87204 5.78793 6.90985 5.87905C6.94766 5.97017 6.96712 6.06785 6.96712 6.1665C6.96712 6.26515 6.94766 6.36283 6.90985 6.45395C6.87204 6.54507 6.81663 6.62783 6.74678 6.6975Z"
+                      fill="black"
+                      stroke="white"
+                      stroke-width="2"
+                      mask="url(#path-1-inside-1_977:1934)"
+                    />
+                  </svg>
+                </label>
               </div>
-              
             </div>
           </div>
         </div>
       </div>
+    </header>
+    <!-- ====== Navbar Section End -->
+
+    <!-- ====== Hero Section Start -->
+    <section
+      id="home"
+      class="
+        ud-relative ud-z-10 ud-pt-[120px] ud-pb-[110px]
+        md:ud-pt-[150px] md:ud-pb-[120px]
+        xl:ud-pt-[180px] xl:ud-pb-[160px]
+        2xl:ud-pt-[210px] 2xl:ud-pb-[200px]
+      "
+    >
+      <div class="ud-container">
+        <div class="ud-flex ud-flex-wrap ud-mx-[-16px]">
+          <div class="ud-w-full ud-px-4">
+            <div
+              class="ud-mx-auto ud-max-w-[570px] ud-text-center wow fadeInUp"
+              data-wow-delay=".2s"
+            >
+              <h1
+                class="
+                  ud-text-black
+                  dark:ud-text-white
+                  ud-font-bold ud-text-3xl
+                  sm:ud-text-3xl
+                  md:ud-text-4xl
+                  ud-leading-tight
+                  sm:ud-leading-tight
+                  md:ud-leading-tight
+                  ud-mb-5
+                "
+              >
+               Supervised Driverless Lawn Mowing Equipment
+              </h1>
+              <p
+                class="
+                  ud-font-medium ud-text-lg
+                  md:ud-text-xl
+                  ud-leading-relaxed
+                  md:ud-leading-relaxed
+                  ud-text-body-color
+                  dark:ud-text-white dark:ud-opacity-90
+                  ud-mb-12
+                "
+              >
+              Telarobo provides IoT & AI based tele-operated driverless lawn mowing solutions, making it way much cheaper and safer.
+              </p>
+              <div class="ud-flex ud-items-center ud-justify-center">
+                <a
+                  href="#features"
+                  class="
+                    ud-text-base
+                    ud-font-semibold
+                    ud-text-white
+                    ud-bg-primary
+                    ud-py-4
+                    ud-px-8
+                    hover:ud-bg-opacity-80
+                    ud-mx-2
+                    ud-rounded-md
+                    ud-transition
+                    ud-duration-300
+                    ud-ease-in-out
+                  "
+                >
+                  Get Started
+                </a>
+                <a
+                  href="#about"
+                  class="
+                    ud-text-base
+                    ud-font-semibold
+                    ud-text-black
+                    ud-bg-black
+                    ud-bg-opacity-10
+                    dark:ud-text-white dark:ud-bg-white dark:ud-bg-opacity-10
+                    ud-py-4 ud-px-8
+                    hover:ud-bg-opacity-20
+                    dark:hover:ud-bg-opacity-20
+                    ud-mx-2
+                    ud-rounded-md
+                    ud-transition
+                    ud-duration-300
+                    ud-ease-in-out
+                  "
+                >
+                  Learn More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div> -->
+      <div class="ud-absolute ud-top-0 ud-right-0 ud-z-[-1]">
+        <svg
+          width="450"
+          height="556"
+          viewBox="0 0 450 556"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle cx="277" cy="63" r="225" fill="url(#paint0_linear_25:217)" />
+          <circle
+            cx="17.9997"
+            cy="182"
+            r="18"
+            fill="url(#paint1_radial_25:217)"
+          />
+          <circle
+            cx="76.9997"
+            cy="288"
+            r="34"
+            fill="url(#paint2_radial_25:217)"
+          />
+          <circle
+            cx="325.486"
+            cy="302.87"
+            r="180"
+            transform="rotate(-37.6852 325.486 302.87)"
+            fill="url(#paint3_linear_25:217)"
+          />
+          <circle
+            opacity="0.8"
+            cx="184.521"
+            cy="315.521"
+            r="132.862"
+            transform="rotate(114.874 184.521 315.521)"
+            stroke="url(#paint4_linear_25:217)"
+          />
+          <circle
+            opacity="0.8"
+            cx="356"
+            cy="290"
+            r="179.5"
+            transform="rotate(-30 356 290)"
+            stroke="url(#paint5_linear_25:217)"
+          />
+          <circle
+            opacity="0.8"
+            cx="191.659"
+            cy="302.659"
+            r="133.362"
+            transform="rotate(133.319 191.659 302.659)"
+            fill="url(#paint6_linear_25:217)"
+          />
+          <defs>
+            <linearGradient
+              id="paint0_linear_25:217"
+              x1="-54.5003"
+              y1="-178"
+              x2="222"
+              y2="288"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#AAE051" />
+              <stop offset="1" stop-color="#AAE051" stop-opacity="0" />
+            </linearGradient>
+            <radialGradient
+              id="paint1_radial_25:217"
+              cx="0"
+              cy="0"
+              r="1"
+              gradientUnits="userSpaceOnUse"
+              gradientTransform="translate(17.9997 182) rotate(90) scale(18)"
+            >
+              <stop offset="0.145833" stop-color="#AAE051" stop-opacity="0" />
+              <stop offset="1" stop-color="#AAE051" stop-opacity="0.08" />
+            </radialGradient>
+            <radialGradient
+              id="paint2_radial_25:217"
+              cx="0"
+              cy="0"
+              r="1"
+              gradientUnits="userSpaceOnUse"
+              gradientTransform="translate(76.9997 288) rotate(90) scale(34)"
+            >
+              <stop offset="0.145833" stop-color="#AAE051" stop-opacity="0" />
+              <stop offset="1" stop-color="#AAE051" stop-opacity="0.08" />
+            </radialGradient>
+            <linearGradient
+              id="paint3_linear_25:217"
+              x1="226.775"
+              y1="-66.1548"
+              x2="292.157"
+              y2="351.421"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#AAE051" />
+              <stop offset="1" stop-color="#AAE051" stop-opacity="0" />
+            </linearGradient>
+            <linearGradient
+              id="paint4_linear_25:217"
+              x1="184.521"
+              y1="182.159"
+              x2="184.521"
+              y2="448.882"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#AAE051" />
+              <stop offset="1" stop-color="white" stop-opacity="0" />
+            </linearGradient>
+            <linearGradient
+              id="paint5_linear_25:217"
+              x1="356"
+              y1="110"
+              x2="356"
+              y2="470"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#AAE051" />
+              <stop offset="1" stop-color="white" stop-opacity="0" />
+            </linearGradient>
+            <linearGradient
+              id="paint6_linear_25:217"
+              x1="118.524"
+              y1="29.2497"
+              x2="166.965"
+              y2="338.63"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#AAE051" />
+              <stop offset="1" stop-color="#AAE051" stop-opacity="0" />
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+      <div class="ud-absolute ud-bottom-0 ud-left-0 ud-z-[-1]">
+        <svg
+          width="364"
+          height="201"
+          viewBox="0 0 364 201"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M5.88928 72.3303C33.6599 66.4798 101.397 64.9086 150.178 105.427C211.155 156.076 229.59 162.093 264.333 166.607C299.076 171.12 337.718 183.657 362.889 212.24"
+            stroke="url(#paint0_linear_25:218)"
+          />
+          <path
+            d="M-22.1107 72.3303C5.65989 66.4798 73.3965 64.9086 122.178 105.427C183.155 156.076 201.59 162.093 236.333 166.607C271.076 171.12 309.718 183.657 334.889 212.24"
+            stroke="url(#paint1_linear_25:218)"
+          />
+          <path
+            d="M-53.1107 72.3303C-25.3401 66.4798 42.3965 64.9086 91.1783 105.427C152.155 156.076 170.59 162.093 205.333 166.607C240.076 171.12 278.718 183.657 303.889 212.24"
+            stroke="url(#paint2_linear_25:218)"
+          />
+          <path
+            d="M-98.1618 65.0889C-68.1416 60.0601 4.73364 60.4882 56.0734 102.431C120.248 154.86 139.905 161.419 177.137 166.956C214.37 172.493 255.575 186.165 281.856 215.481"
+            stroke="url(#paint3_linear_25:218)"
+          />
+          <circle
+            opacity="0.8"
+            cx="214.505"
+            cy="60.5054"
+            r="49.7205"
+            transform="rotate(-13.421 214.505 60.5054)"
+            stroke="url(#paint4_linear_25:218)"
+          />
+          <circle cx="220" cy="63" r="43" fill="url(#paint5_radial_25:218)" />
+          <defs>
+            <linearGradient
+              id="paint0_linear_25:218"
+              x1="184.389"
+              y1="69.2405"
+              x2="184.389"
+              y2="212.24"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#AAE051" stop-opacity="0" />
+              <stop offset="1" stop-color="#AAE051" />
+            </linearGradient>
+            <linearGradient
+              id="paint1_linear_25:218"
+              x1="156.389"
+              y1="69.2405"
+              x2="156.389"
+              y2="212.24"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#AAE051" stop-opacity="0" />
+              <stop offset="1" stop-color="#AAE051" />
+            </linearGradient>
+            <linearGradient
+              id="paint2_linear_25:218"
+              x1="125.389"
+              y1="69.2405"
+              x2="125.389"
+              y2="212.24"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#AAE051" stop-opacity="0" />
+              <stop offset="1" stop-color="#AAE051" />
+            </linearGradient>
+            <linearGradient
+              id="paint3_linear_25:218"
+              x1="93.8507"
+              y1="67.2674"
+              x2="89.9278"
+              y2="210.214"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#AAE051" stop-opacity="0" />
+              <stop offset="1" stop-color="#AAE051" />
+            </linearGradient>
+            <linearGradient
+              id="paint4_linear_25:218"
+              x1="214.505"
+              y1="10.2849"
+              x2="212.684"
+              y2="99.5816"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#AAE051" />
+              <stop offset="1" stop-color="#AAE051" stop-opacity="0" />
+            </linearGradient>
+            <radialGradient
+              id="paint5_radial_25:218"
+              cx="0"
+              cy="0"
+              r="1"
+              gradientUnits="userSpaceOnUse"
+              gradientTransform="translate(220 63) rotate(90) scale(43)"
+            >
+              <stop offset="0.145833" stop-color="white" stop-opacity="0" />
+              <stop offset="1" stop-color="white" stop-opacity="0.08" />
+            </radialGradient>
+          </defs>
+        </svg>
+      </div>
+      <!-- </div> -->
     </section>
-    <!-- ======== hero-section end ======== -->
+    <!-- ====== Hero Section End -->
 
-    <!-- ======== feature-section start ======== -->
-    <section id="features" class="feature-section pt-120">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col" style=" border-radius: 10px; background: #fff; margin-bottom: 10px; padding: 10px; margin-right: 10px;box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;">
-            <!-- <div class="col-lg-3 col-md-6 col-sm-8"> -->
-            <div class="single-feature">
-              <div class="icon">
-              <i class="fas fa-file-invoice-dollar"></i>
-              </div>
-              <div class="content" >
-                <h3>Reduced Operation Cost</h3>
-                <p >
-                  Teleoperated control of any lawn mower at any location reduces the cost of flex and surge staffing. 
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col" style="border-radius: 10px; background: #fff; margin-bottom: 10px; padding: 10px; margin-right: 10px; box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;">
-            <!-- <div class="col-lg-3 col-md-6 col-sm-8"> -->
-            <div class="single-feature">
-              <div class="icon">
-                <i class="fas fa-user-clock"></i>
-              </div>
-              <div class="content">
-                <h3>Increased Productivity</h3>
-                <p>
-                  Save travel time between different sites and use remote lawn mower operator to 
-                  balance out surges in operational demand.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col" style="border-radius: 10px; background: #fff; margin-bottom: 10px; padding: 10px; margin-right: 10px; box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;">
-            <!-- <div class="col-lg-3 col-md-6 col-sm-8"> -->
-            <div class="single-feature">
-              <div class="icon">
-                <!-- <i class="lni lni-layout"></i> -->
-                <i class="fas fa-hard-hat"></i>
-              </div>
-              <div class="content">
-                <h3>Enhanced Operator Safety</h3>
-                <p>
-                  Move lawn mower operators from harsh environments by empowering them to work in 
-                  remote locations up to thousands of miles away.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col" style="border-radius: 10px; background: #fff; margin-bottom: 10px; padding: 10px; margin-right: 10px; box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;">
-            <!-- <div class="col-lg-3 col-md-6 col-sm-8"> -->
-            <div class="single-feature">
-              <div class="icon">
-                <i class="fas fa-users"></i>
-              </div>
-              <div class="content">
-                <h3>Reduce Labor Shortage</h3>
-                <p>
-                  Hire from inaccessible labor pools such as the geographically isolated or physically 
-                  impaired, and enhance labor retention by offering 
-                  teleoperated positions.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- ======== feature-section end ======== -->
-
-    <!-- ======== about-section start ======== -->
-    <section id="about" class="about-section pt-150">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-xl-6 col-lg-6">
-            <div class="about-img">
-              <img src="assets/img/about/123.png" alt="" class="w-100" />
-              <img
-                src="assets/img/about/about-left-shape.svg"
-                alt=""
-                class="shape shape-1"
-              />
-              <img
-                src="assets/img/about/left-dots.svg"
-                alt=""
-                class="shape shape-2"
-              />
-            </div>
-          </div>
-          <div class="col-xl-6 col-lg-6">
-            <div class="about-content">
-              <div class="section-title mb-30">
-                <h2 class="mb-25 wow fadeInUp" data-wow-delay=".2s">
-                  Retrofit Existing Equipment 
-                </h2>
-                <p class="wow fadeInUp" data-wow-delay=".4s">
-                  We retrofit existing lawn mower with a box that enables control of the equipment through teleoperations from anywhere in the world.
-                </p>
-              </div>
-              <!-- <a
-                href="javascript:void(0)"
-                class="main-btn btn-hover border-btn wow fadeInUp"
-                data-wow-delay=".6s"
-                >Discover More</a
-              > -->
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- ======== about-section end ======== -->
-
-    <!-- ======== about2-section start ======== -->
-    <section id="about" class="about-section pt-150">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-xl-6 col-lg-6">
-            <div class="about-content">
-              <div class="section-title mb-30">
-                <h2 class="mb-25 wow fadeInUp" data-wow-delay=".2s">
-                  Easy to Use with Tons of Awesome Features
-                </h2>
-                <p class="wow fadeInUp" data-wow-delay=".4s">
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                  diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                  aliquyam erat, sed diam voluptua.
-                </p>
-              </div>
-              <!-- <ul>
-                <li>Quick Access</li>
-                <li>Easily to Manage</li>
-                <li>24/7 Support</li>
-              </ul> -->
-              <!-- <a
-                href="javascript:void(0)"
-                class="main-btn btn-hover border-btn wow fadeInUp"
-                data-wow-delay=".6s"
-                >Learn More</a
-              > -->
-            </div>
-          </div>
-          <div class="col-xl-6 col-lg-6 order-first order-lg-last">
-            <div class="about-img-2">
-              <img src="assets/img/about/123.png" alt="" class="w-100" />
-              <img
-                src="assets/img/about/about-right-shape.svg"
-                alt=""
-                class="shape shape-1"
-              />
-              <img
-                src="assets/img/about/right-dots.svg"
-                alt=""
-                class="shape shape-2"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- ======== about2-section end ======== -->
-
-
-    <!-- ======== about-3-section start ======== -->
-    <section id="about" class="about-section pt-150">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-xl-6 col-lg-6">
-            <div class="about-img">
-              <img src="assets/img/about/123.png" alt="" class="w-100" />
-              <img
-                src="assets/img/about/about-left-shape.svg"
-                alt=""
-                class="shape shape-1"
-              />
-              <img
-                src="assets/img/about/left-dots.svg"
-                alt=""
-                class="shape shape-2"
-              />
-            </div>
-          </div>
-          <div class="col-xl-6 col-lg-6">
-            <div class="about-content">
-              <div class="section-title mb-30">
-                <h2 class="mb-25 wow fadeInUp" data-wow-delay=".2s">
-                  Perfect Solution Thriving Online Business
-                </h2>
-                <p class="wow fadeInUp" data-wow-delay=".4s">
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                  dinonumy eirmod tempor invidunt ut labore et dolore magna
-                  aliquyam erat, sed diam voluptua. At vero eos et accusam et
-                  justo duo dolores et ea rebum. Stet clita kasd gubergren, no
-                  sea takimata sanctus est Lorem.Lorem ipsum dolor sit amet.
-                </p>
-              </div>
-              <!-- <a
-                href="javascript:void(0)"
-                class="main-btn btn-hover border-btn wow fadeInUp"
-                data-wow-delay=".6s"
-                >Discover More</a
-              > -->
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- ======== about-3-section end ======== -->
-
-    <!-- ======== feature-section start ======== -->
-    <!-- <section id="why" class="feature-extended-section pt-100">
-      <div class="feature-extended-wrapper">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-xxl-5 col-xl-6 col-lg-8 col-md-9">
-              <div class="section-title text-center mb-60">
-                <h2 class="mb-25 wow fadeInUp" data-wow-delay=".2s">
-                  Why Choose SaaSpal
-                </h2>
-                <p class="wow fadeInUp" data-wow-delay=".4s">
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                  diam nonumy eirmod tempor invidunt ut labore et dolore
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-lg-4 col-md-6">
-              <div class="single-feature-extended">
-                <div class="icon">
-                  <i class="lni lni-display"></i>
-                </div>
-                <div class="content">
-                  <h3>SaaS Focused</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                    diam nonumy eirmod tempor invidunt ut labore
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="single-feature-extended">
-                <div class="icon">
-                  <i class="lni lni-leaf"></i>
-                </div>
-                <div class="content">
-                  <h3>Awesome Design</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                    diam nonumy eirmod tempor invidunt ut labore
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="single-feature-extended">
-                <div class="icon">
-                  <i class="lni lni-grid-alt"></i>
-                </div>
-                <div class="content">
-                  <h3>Ready to Use</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                    diam nonumy eirmod tempor invidunt ut labore
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="single-feature-extended">
-                <div class="icon">
-                  <i class="lni lni-javascript"></i>
-                </div>
-                <div class="content">
-                  <h3>Vanilla JS</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                    diam nonumy eirmod tempor invidunt ut labore
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="single-feature-extended">
-                <div class="icon">
-                  <i class="lni lni-layers"></i>
-                </div>
-                <div class="content">
-                  <h3>Essential Sections</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                    diam nonumy eirmod tempor invidunt ut labore
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="single-feature-extended">
-                <div class="icon">
-                  <i class="lni lni-rocket"></i>
-                </div>
-                <div class="content">
-                  <h3>Highly Optimized</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                    diam nonumy eirmod tempor invidunt ut labore
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
-    <!-- ======== feature-section end ======== -->
-
-    <!-- ======== pricing-section end ======== -->
-    <!-- <section id="pricing" class="pricing-section pt-120 pb-120">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-xxl-5 col-xl-6 col-lg-8 col-md-9">
-            <div class="section-title text-center mb-35">
-              <h2 class="mb-25 wow fadeInUp" data-wow-delay=".2s">
-                Choose a Plan
+    <!-- ====== Features Section Start -->
+    <section
+      id="features"
+      class="ud-bg-primary ud-bg-opacity-[3%] ud-pt-[120px] ud-pb-[50px]"
+    >
+      <div class="ud-container">
+        <div class="ud-flex ud-flex-wrap ud-mx-[-16px]">
+          <div class="ud-w-full ud-px-4">
+            <div
+              class="
+                ud-mx-auto ud-max-w-[570px] ud-text-center ud-mb-[100px]
+                wow
+                fadeInUp
+              "
+              data-wow-delay=".1s"
+            >
+              <h2
+                class="
+                  ud-text-black
+                  dark:ud-text-white
+                  ud-font-bold ud-text-3xl
+                  sm:ud-text-4xl
+                  md:ud-text-[45px]
+                  ud-mb-4
+                "
+              >
+                Our Advantage
               </h2>
-              <p class="wow fadeInUp" data-wow-delay=".4s">
-                Lorem ipsum dolor sit amet consetetur sadipscing elitr sswed
-                diam nonumy eirmod tempor nvidunt.
+              <p
+                class="
+                  ud-text-body-color ud-text-base
+                  md:ud-text-lg
+                  ud-leading-relaxed
+                  md:ud-leading-relaxed
+                "
+              >
+                We are the first company to bring tele-operation in the lawn mowing industry.
               </p>
             </div>
           </div>
         </div>
 
-        <div class="pricing-nav-wrapper mb-60">
-          <ul class="nav nav-pills" id="pills-tab" role="tablist">
-            <li role="presentation">
-              <a
-                class="active"
-                id="pills-month-tab"
-                data-bs-toggle="pill"
-                href="#pills-month"
-                role="tab"
-                aria-controls="pills-month"
-                aria-selected="true"
-                >Monthly</a
+        <div class="ud-flex ud-flex-wrap ud-mx-[-16px]">
+          <div class="ud-w-full md:ud-w-1/2 lg:ud-w-1/3 ud-px-4">
+            <div class="ud-mb-[70px] wow fadeInUp" data-wow-delay=".15s">
+              <div
+                class="
+                  ud-w-[70px]
+                  ud-h-[70px]
+                  ud-flex
+                  ud-items-center
+                  ud-justify-center
+                  ud-rounded-md
+                  ud-bg-primary
+                  ud-bg-opacity-10
+                  ud-mb-10
+                  ud-text-primary
+                "
               >
-            </li>
-            <li role="presentation">
-              <a
-                id="pills-year-tab"
-                data-bs-toggle="pill"
-                href="#pills-year"
-                role="tab"
-                aria-controls="pills-year"
-                aria-selected="false"
-                >Yearly</a
+                <svg
+                  width="40"
+                  height="41"
+                  viewBox="0 0 40 41"
+                  fill="#AAE051"
+                >
+                  <path
+                    opacity="0.5"
+                    d="M37.7778 40.2223H24C22.8954 40.2223 22 39.3268 22 38.2223V20.0001C22 18.8955 22.8954 18.0001 24 18.0001H37.7778C38.8823 18.0001 39.7778 18.8955 39.7778 20.0001V38.2223C39.7778 39.3268 38.8823 40.2223 37.7778 40.2223Z"
+                  />
+                  <path
+                    d="M23.2222 0C22.6699 0 22.2222 0.447715 22.2222 1V12.3333C22.2222 12.8856 22.6699 13.3333 23.2222 13.3333H39C39.5523 13.3333 40 12.8856 40 12.3333V0.999999C40 0.447714 39.5523 0 39 0H23.2222ZM0 39C0 39.5523 0.447715 40 1 40H16.7778C17.3301 40 17.7778 39.5523 17.7778 39V27.6667C17.7778 27.1144 17.3301 26.6667 16.7778 26.6667H1C0.447716 26.6667 0 27.1144 0 27.6667V39ZM0 21.2222C0 21.7745 0.447715 22.2222 1 22.2222H16.7778C17.3301 22.2222 17.7778 21.7745 17.7778 21.2222V0.999999C17.7778 0.447714 17.3301 0 16.7778 0H1C0.447716 0 0 0.447715 0 1V21.2222Z"
+                  />
+                </svg>
+              </div>
+              <h3
+                class="
+                  ud-font-bold ud-text-black
+                  dark:ud-text-white
+                  ud-text-xl
+                  sm:ud-text-2xl
+                  lg:ud-text-xl
+                  xl:ud-text-2xl
+                  ud-mb-5
+                "
               >
-            </li>
-          </ul>
-        </div>
-
-        <div class="tab-content" id="pills-tabContent">
-          <div
-            class="tab-pane fade show active"
-            id="pills-month"
-            role="tabpanel"
-            aria-labelledby="pills-month-tab"
-          >
-            <div class="row justify-content-center">
-              <div class="col-lg-4 col-md-8 col-sm-10">
-                <div class="single-pricing">
-                  <div class="pricing-header">
-                    <h1 class="price">$36</h1>
-                    <h3 class="package-name">Basic Account</h3>
-                  </div>
-                  <div class="content">
-                    <ul>
-                      <li>
-                        <i class="lni lni-checkmark active"></i> Unlimited Acces
-                      </li>
-                      <li>
-                        <i class="lni lni-checkmark active"></i> Single User
-                      </li>
-                      <li>
-                        <i class="lni lni-checkmark active"></i> Unlimited
-                        Storage
-                      </li>
-                      <li><i class="lni lni-close"></i> 24/7 Support</li>
-                      <li><i class="lni lni-close"></i> Free Future Updates</li>
-                    </ul>
-                  </div>
-                  <div class="pricing-btn">
-                    <a
-                      href="javascript:void(0)"
-                      class="main-btn btn-hover border-btn"
-                      >Get Start</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-8 col-sm-10">
-                <div class="single-pricing">
-                  <div class="pricing-header">
-                    <h1 class="price">$56</h1>
-                    <h3 class="package-name">Standard Account</h3>
-                  </div>
-                  <div class="content">
-                    <ul>
-                      <li>
-                        <i class="lni lni-checkmark active"></i> Unlimited Acces
-                      </li>
-                      <li>
-                        <i class="lni lni-checkmark active"></i> 20+ Users
-                      </li>
-                      <li>
-                        <i class="lni lni-checkmark active"></i> Unlimited
-                        Storage
-                      </li>
-                      <li>
-                        <i class="lni lni-checkmark active"></i> 24/7 Support
-                      </li>
-                      <li>
-                        <i class="lni lni-checkmark active"></i> Free Future
-                        Updates
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="pricing-btn">
-                    <a href="javascript:void(0)" class="main-btn btn-hover"
-                      >Get Start</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-8 col-sm-10">
-                <div class="single-pricing">
-                  <div class="pricing-header">
-                    <h1 class="price">$89</h1>
-                    <h3 class="package-name">Premium Account</h3>
-                  </div>
-                  <div class="content">
-                    <ul>
-                      <li>
-                        <i class="lni lni-checkmark active"></i> Unlimited Acces
-                      </li>
-                      <li>
-                        <i class="lni lni-checkmark active"></i> Unlimited Users
-                      </li>
-                      <li>
-                        <i class="lni lni-checkmark active"></i> Unlimited
-                        Storage
-                      </li>
-                      <li>
-                        <i class="lni lni-checkmark active"></i> 24/7 Support
-                      </li>
-                      <li>
-                        <i class="lni lni-checkmark active"></i> Free Future
-                        Updates
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="pricing-btn">
-                    <a
-                      href="javascript:void(0)"
-                      class="main-btn btn-hover border-btn"
-                      >Get Start</a
-                    >
-                  </div>
-                </div>
-              </div>
+              Reduced Operation Cost
+              </h3>
+              <p
+                class="
+                  ud-text-body-color
+                  ud-text-base
+                  ud-leading-relaxed
+                  ud-font-medium
+                  ud-pr-[10px]
+                "
+              >
+              Teleoperated control of any lawn mower at any location reduces the cost of flex and surge staffing.
+              </p>
             </div>
           </div>
-          <div
-            class="tab-pane fade"
-            id="pills-year"
-            role="tabpanel"
-            aria-labelledby="pills-year-tab"
-          >
-            <div class="row justify-content-center">
-              <div class="col-lg-4 col-md-8 col-sm-10">
-                <div class="single-pricing">
-                  <div class="pricing-header">
-                    <h1 class="price">$136</h1>
-                    <h3 class="package-name">Basic Account</h3>
-                  </div>
-                  <div class="content">
-                    <ul>
-                      <li>
-                        <i class="lni lni-checkmark active"></i> Unlimited Acces
-                      </li>
-                      <li>
-                        <i class="lni lni-checkmark active"></i> Single User
-                      </li>
-                      <li>
-                        <i class="lni lni-checkmark active"></i> Unlimited
-                        Storage
-                      </li>
-                      <li><i class="lni lni-close"></i> 24/7 Support</li>
-                      <li><i class="lni lni-close"></i> Free Future Updates</li>
-                    </ul>
-                  </div>
-                  <div class="pricing-btn">
-                    <a
-                      href="javascript:void(0)"
-                      class="main-btn btn-hover border-btn"
-                      >Get Start</a
-                    >
-                  </div>
-                </div>
+          <div class="ud-w-full md:ud-w-1/2 lg:ud-w-1/3 ud-px-4">
+            <div class="ud-mb-[70px] wow fadeInUp" data-wow-delay=".2s">
+              <div
+                class="
+                  ud-w-[70px]
+                  ud-h-[70px]
+                  ud-flex
+                  ud-items-center
+                  ud-justify-center
+                  ud-rounded-md
+                  ud-bg-primary
+                  ud-bg-opacity-10
+                  ud-mb-10
+                  ud-text-primary
+                "
+              >
+                <svg
+                  width="40"
+                  height="40"
+                  viewBox="0 0 40 40"
+                  fill="#AAE051"
+                >
+                  <path
+                    opacity="0.5"
+                    d="M20.5914 34.2584C20.2394 34.5172 19.7603 34.5175 19.408 34.2593L4.19163 23.1079C3.8395 22.8498 3.36065 22.85 3.00873 23.1084L1.09802 24.5111C0.553731 24.9107 0.553731 25.7237 1.09802 26.1233L19.4082 39.5655C19.7604 39.824 20.2396 39.824 20.5918 39.5655L38.9029 26.1226C39.4469 25.7232 39.4473 24.9107 38.9036 24.5109L36.9701 23.0889C36.6177 22.8298 36.1378 22.8297 35.7854 23.0888L20.5914 34.2584Z"
+                  />
+                  <path
+                    d="M19.408 28.931C19.7603 29.1896 20.2396 29.1894 20.5918 28.9306L36.3556 17.3466L38.8979 15.4883C39.4437 15.0894 39.4446 14.275 38.8996 13.8749L20.5918 0.43445C20.2396 0.175911 19.7604 0.175913 19.4082 0.434452L1.09706 13.8774C0.553051 14.2767 0.552712 15.0892 1.09638 15.4891L3.62222 17.3466L19.408 28.931Z"
+                  />
+                </svg>
               </div>
-              <div class="col-lg-4 col-md-8 col-sm-10">
-                <div class="single-pricing">
-                  <div class="pricing-header">
-                    <h1 class="price">$156</h1>
-                    <h3 class="package-name">Standard Account</h3>
-                  </div>
-                  <div class="content">
-                    <ul>
-                      <li>
-                        <i class="lni lni-checkmark active"></i> Unlimited Acces
-                      </li>
-                      <li>
-                        <i class="lni lni-checkmark active"></i> 20+ Users
-                      </li>
-                      <li>
-                        <i class="lni lni-checkmark active"></i> Unlimited
-                        Storage
-                      </li>
-                      <li>
-                        <i class="lni lni-checkmark active"></i> 24/7 Support
-                      </li>
-                      <li><i class="lni lni-close"></i> Free Future Updates</li>
-                    </ul>
-                  </div>
-                  <div class="pricing-btn">
-                    <a href="javascript:void(0)" class="main-btn btn-hover"
-                      >Get Start</a
-                    >
-                  </div>
-                </div>
+              <h3
+                class="
+                  ud-font-bold ud-text-black
+                  dark:ud-text-white
+                  ud-text-xl
+                  sm:ud-text-2xl
+                  lg:ud-text-xl
+                  xl:ud-text-2xl
+                  ud-mb-5
+                "
+              >
+              Increased Productivity
+              </h3>
+              <p
+                class="
+                  ud-text-body-color
+                  ud-text-base
+                  ud-leading-relaxed
+                  ud-font-medium
+                  ud-pr-[10px]
+                "
+              >
+              Save travel time between different sites and use remote lawn mower operator to balance out surges in operational demand.
+              </p>
+            </div>
+          </div>
+          <div class="ud-w-full md:ud-w-1/2 lg:ud-w-1/3 ud-px-4">
+            <div class="ud-mb-[70px] wow fadeInUp" data-wow-delay=".25s">
+              <div
+                class="
+                  ud-w-[70px]
+                  ud-h-[70px]
+                  ud-flex
+                  ud-items-center
+                  ud-justify-center
+                  ud-rounded-md
+                  ud-bg-primary
+                  ud-bg-opacity-10
+                  ud-mb-10
+                  ud-text-primary
+                "
+              >
+                <!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                <svg fill="#AAE051" width="52" height="52" version="1.1" id="lni_lni-helmet" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                   y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+                <path d="M58,38.9h-0.3c0-0.2,0-0.4,0-0.6c0-14.6-11.5-26.5-25.7-26.5S6.3,23.6,6.3,38.3c0,0.2,0,0.4,0,0.6H6c-2.6,0-4.8,2.1-4.8,4.8
+                  v3.9c0,2.6,2.1,4.8,4.8,4.8h52c2.6,0,4.8-2.1,4.8-4.8v-3.9C62.8,41,60.6,38.9,58,38.9z M9.8,38.3c0-8.4,4.4-15.8,10.9-19.8v5
+                  c0,1,0.8,1.8,1.8,1.8s1.8-0.8,1.8-1.8v-6.7c1.9-0.7,3.9-1.2,6-1.4v10.5c0,1,0.8,1.8,1.8,1.8s1.8-0.8,1.8-1.8V15.3
+                  c2.1,0.2,4.1,0.6,6,1.4v6.7c0,1,0.8,1.8,1.8,1.8s1.8-0.8,1.8-1.8v-5c6.5,4,10.9,11.4,10.9,19.8c0,0.2,0,0.4,0,0.6H9.8
+                  C9.8,38.7,9.8,38.5,9.8,38.3z M59.3,47.5c0,0.7-0.6,1.3-1.3,1.3H6c-0.7,0-1.3-0.6-1.3-1.3v-3.9c0-0.7,0.6-1.3,1.3-1.3h52
+                  c0.7,0,1.3,0.6,1.3,1.3V47.5z"/>
+                </svg>
+                
               </div>
-              <div class="col-lg-4 col-md-8 col-sm-10">
-                <div class="single-pricing">
-                  <div class="pricing-header">
-                    <h1 class="price">$189</h1>
-                    <h3 class="package-name">Premium Account</h3>
-                  </div>
-                  <div class="content">
-                    <ul>
-                      <li>
-                        <i class="lni lni-checkmark active"></i> Unlimited Acces
-                      </li>
-                      <li>
-                        <i class="lni lni-checkmark active"></i> Unlimited Users
-                      </li>
-                      <li>
-                        <i class="lni lni-checkmark active"></i> Unlimited
-                        Storage
-                      </li>
-                      <li>
-                        <i class="lni lni-checkmark active"></i> 24/7 Support
-                      </li>
-                      <li>
-                        <i class="lni lni-checkmark active"></i> Free Future
-                        Updates
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="pricing-btn">
-                    <a
-                      href="javascript:void(0)"
-                      class="main-btn btn-hover border-btn"
-                      >Get Start</a
-                    >
-                  </div>
-                </div>
+              <h3
+                class="
+                  ud-font-bold ud-text-black
+                  dark:ud-text-white
+                  ud-text-xl
+                  sm:ud-text-2xl
+                  lg:ud-text-xl
+                  xl:ud-text-2xl
+                  ud-mb-5
+                "
+              >
+              Enhanced Operator Safety
+              </h3>
+              <p
+                class="
+                  ud-text-body-color
+                  ud-text-base
+                  ud-leading-relaxed
+                  ud-font-medium
+                  ud-pr-[10px]
+                "
+              >
+              Move lawn mower operators from harsh environments by empowering them to work in remote locations up to thousands of miles away.
+              </p>
+            </div>
+          </div>
+          <div class="ud-w-full md:ud-w-1/2 lg:ud-w-1/3 ud-px-4">
+            <div class="ud-mb-[70px] wow fadeInUp" data-wow-delay=".1s">
+              <div
+                class="
+                  ud-w-[70px]
+                  ud-h-[70px]
+                  ud-flex
+                  ud-items-center
+                  ud-justify-center
+                  ud-rounded-md
+                  ud-bg-primary
+                  ud-bg-opacity-10
+                  ud-mb-10
+                  ud-text-primary
+                "
+              >
+                <svg
+                  width="40"
+                  height="42"
+                  viewBox="0 0 40 42"
+                  fill="#AAE051"
+                >
+                  <path
+                    opacity="0.5"
+                    d="M31.8943 25.3303C34.1233 25.3303 36.1497 26.1409 37.5682 27.762L39.1464 26.1839C39.4614 25.8689 39.9999 26.092 39.9999 26.5374V32.936C39.9999 33.2121 39.7761 33.436 39.4999 33.436H33.1014C32.6559 33.436 32.4328 32.8974 32.7478 32.5825L35.5418 29.7885C34.5286 28.9779 33.3128 28.37 31.8943 28.37C29.0573 28.37 26.8282 30.599 26.8282 33.436C26.8282 36.273 29.0573 38.5021 31.8943 38.5021C33.3549 38.5021 34.6511 37.844 35.6345 36.8244C35.8406 36.6107 36.1187 36.4756 36.4155 36.4756H38.6535C39.0072 36.4756 39.2477 36.833 39.0881 37.1487C37.7427 39.8107 35.0781 41.5417 31.8943 41.5417C27.4361 41.5417 23.7886 37.8941 23.7886 33.436C23.7886 28.9779 27.4361 25.3303 31.8943 25.3303Z"
+                  />
+                  <path
+                    d="M18.7226 33.436C18.7226 31.3572 19.2513 29.4548 19.9799 27.7285C20.0541 27.5529 19.9264 27.3567 19.7358 27.3567C15.8856 27.3567 12.6433 24.1144 12.6433 20.2642C12.6433 16.414 15.8856 13.1717 19.7358 13.1717C23.586 13.1717 26.8283 16.414 26.8283 20.2642C26.8283 20.5105 27.3897 21.0054 27.6246 20.9313C28.9274 20.5206 30.2827 20.2642 31.8943 20.2642C32.775 20.2642 33.6557 20.4173 34.5364 20.5905C34.7422 20.6309 34.9339 20.4739 34.9339 20.2642C34.9339 19.8699 34.9339 19.3904 34.8787 18.9362C34.827 18.5117 34.9599 18.0636 35.3001 17.8045L38.9868 14.9955C39.3921 14.5902 39.3921 14.1849 39.1894 13.7797L35.1857 6.77316C35.153 6.71599 35.1272 6.65499 35.1021 6.59411C34.9143 6.13895 34.5848 6.08618 34.1135 6.08007C33.9863 6.07841 33.86 6.10354 33.7419 6.15079L29.3957 7.88927C29.0613 8.02302 28.6829 7.96367 28.3887 7.75599C27.6155 7.21023 26.7521 6.75466 25.8752 6.31262C25.5838 6.16573 25.3813 5.88702 25.3335 5.56423L24.6729 1.10574C24.6265 0.792572 24.6613 0.389935 24.3993 0.212245C24.2235 0.0930361 23.9828 0 23.7886 0H15.6829C15.3021 0 14.7424 0.35783 14.6762 0.73726C14.6678 0.785579 14.6661 0.834927 14.6589 0.883445L13.9492 5.67408C13.894 6.04692 13.6313 6.35205 13.2873 6.50604C12.4439 6.88359 11.673 7.42345 10.8193 7.89265C10.5647 8.03264 10.26 8.04143 9.99178 7.92966L5.73545 6.15619C5.61358 6.10541 5.48273 6.07832 5.35072 6.08016C4.8506 6.08715 4.49147 6.1485 4.13234 6.68719L0.0794975 13.7797C-0.123145 14.1849 0.0794976 14.5902 0.484782 14.9955L4.34631 17.9376C4.59456 18.1268 4.74261 18.4216 4.7079 18.7317C4.65068 19.243 4.53762 19.8101 4.53762 20.2642C4.53762 20.6648 4.53762 21.1534 4.59561 21.614C4.64767 22.0276 4.52563 22.4644 4.20164 22.7267L0.484782 25.7355C0.0794976 26.1408 0.0794978 26.5461 0.28214 26.9514L4.33498 34.0439C4.5154 34.4047 4.85644 34.4443 5.35811 34.4486C5.48532 34.4497 5.61152 34.4249 5.72964 34.3776L10.0758 32.6392C10.4102 32.5054 10.7887 32.5648 11.0829 32.7724C11.8561 33.3182 12.7195 33.7738 13.5964 34.2158C13.8878 34.3627 14.0903 34.6414 14.1381 34.9642L14.8616 39.8476C14.8688 39.8961 14.871 39.9453 14.8768 39.994C14.9222 40.3734 15.3145 40.7311 15.8856 40.7311H19.13C19.9191 40.7311 20.4065 39.8523 20.0627 39.1421C19.1998 37.3593 18.7226 35.4573 18.7226 33.436Z"
+                  />
+                </svg>
               </div>
+              <h3
+                class="
+                  ud-font-bold ud-text-black
+                  dark:ud-text-white
+                  ud-text-xl
+                  sm:ud-text-2xl
+                  lg:ud-text-xl
+                  xl:ud-text-2xl
+                  ud-mb-5
+                "
+              >
+              Reduce Labor Shortage
+              </h3>
+              <p
+                class="
+                  ud-text-body-color
+                  ud-text-base
+                  ud-leading-relaxed
+                  ud-font-medium
+                  ud-pr-[10px]
+                "
+              >
+              Hire from inaccessible labor pools such as the geographically isolated or physically impaired, and enhance labor retention by offering teleoperated positions.
+              </p>
+            </div>
+          </div>
+          <div class="ud-w-full md:ud-w-1/2 lg:ud-w-1/3 ud-px-4">
+            <div class="ud-mb-[70px] wow fadeInUp" data-wow-delay=".15s">
+              <div
+                class="
+                  ud-w-[70px]
+                  ud-h-[70px]
+                  ud-flex
+                  ud-items-center
+                  ud-justify-center
+                  ud-rounded-md
+                  ud-bg-primary
+                  ud-bg-opacity-10
+                  ud-mb-10
+                  ud-text-primary
+                "
+              >
+                <svg
+                  width="40"
+                  height="40"
+                  viewBox="0 0 40 40"
+                  fill="#AAE051"
+                >
+                  <path
+                    opacity="0.5"
+                    d="M39 12C39.5523 12 40 12.4477 40 13V39C40 39.5523 39.5523 40 39 40H13C12.4477 40 12 39.5523 12 39V33C12 32.4477 12.4477 32 13 32H31C31.5523 32 32 31.5523 32 31V13C32 12.4477 32.4477 12 33 12H39Z"
+                  />
+                  <rect width="28" height="28" rx="1" />
+                </svg>
+              </div>
+              <h3
+                class="
+                  ud-font-bold ud-text-black
+                  dark:ud-text-white
+                  ud-text-xl
+                  sm:ud-text-2xl
+                  lg:ud-text-xl
+                  xl:ud-text-2xl
+                  ud-mb-5
+                "
+              >
+                Fully Customizable
+              </h3>
+              <p
+                class="
+                  ud-text-body-color
+                  ud-text-base
+                  ud-leading-relaxed
+                  ud-font-medium
+                  ud-pr-[10px]
+                "
+              >
+                Tuae nam ex similique incidunt expedita exerci tationem
+                laudantium. Repellendus quisquam numquam perferendis earum
+                sapiente non tempore? Fugit repellat ut maiores.
+              </p>
+            </div>
+          </div>
+          <div class="ud-w-full md:ud-w-1/2 lg:ud-w-1/3 ud-px-4">
+            <div class="ud-mb-[70px] wow fadeInUp" data-wow-delay=".2s">
+              <div
+                class="
+                  ud-w-[70px]
+                  ud-h-[70px]
+                  ud-flex
+                  ud-items-center
+                  ud-justify-center
+                  ud-rounded-md
+                  ud-bg-primary
+                  ud-bg-opacity-10
+                  ud-mb-10
+                  ud-text-primary
+                "
+              >
+                <svg
+                  width="40"
+                  height="45"
+                  viewBox="0 0 40 45"
+                  fill="#AAE051"
+                >
+                  <path
+                    opacity="0.5"
+                    d="M31.579 37.8948C28.6737 37.8948 26.3158 35.5369 26.3158 32.6317C26.3158 31.9159 26.4527 31.2306 26.7135 30.6015C26.7959 30.4027 26.7605 30.1711 26.6083 30.019L24.9997 28.4103C24.7766 28.1872 24.4043 28.2238 24.2487 28.4983C23.5588 29.7145 23.1579 31.125 23.1579 32.6317C23.1579 37.2843 26.9263 41.0527 31.579 41.0527V43.0035C31.579 43.449 32.1175 43.6721 32.4325 43.3571L35.9622 39.8273C36.1575 39.6321 36.1575 39.3155 35.9622 39.1202L32.4325 35.5905C32.1175 35.2755 31.579 35.4986 31.579 35.9441V37.8948ZM31.579 24.2106V22.2598C31.579 21.8144 31.0404 21.5913 30.7254 21.9063L27.1957 25.436C27.0004 25.6313 27.0004 25.9479 27.1957 26.1431L30.7254 29.6729C31.0404 29.9879 31.579 29.7648 31.579 29.3193V27.3685C34.4842 27.3685 36.8421 29.7264 36.8421 32.6317C36.8421 33.3474 36.7052 34.0328 36.4444 34.6618C36.362 34.8606 36.3974 35.0922 36.5496 35.2444L38.1582 36.853C38.3813 37.0762 38.7536 37.0396 38.9092 36.7651C39.5991 35.5488 40 34.1384 40 32.6317C40 27.9791 36.2316 24.2106 31.579 24.2106Z"
+                  />
+                  <path
+                    d="M18.9474 32.6316C18.9474 35.4705 19.8099 38.0969 21.2941 40.2796C21.7904 41.0094 21.3054 42.1053 20.4229 42.1053H4.21053C1.87368 42.1053 0 40.2316 0 37.8947V4.21053C0 1.89474 1.87368 0 4.21053 0H6.31579H16.8421H29.4737C31.7895 0 33.6842 1.87368 33.6842 4.21053V17.9544C33.6842 18.5032 33.1804 18.9474 32.6316 18.9474C25.0737 18.9474 18.9474 25.0737 18.9474 32.6316Z"
+                  />
+                </svg>
+              </div>
+              <h3
+                class="
+                  ud-font-bold ud-text-black
+                  dark:ud-text-white
+                  ud-text-xl
+                  sm:ud-text-2xl
+                  lg:ud-text-xl
+                  xl:ud-text-2xl
+                  ud-mb-5
+                "
+              >
+                Regular Updates
+              </h3>
+              <p
+                class="
+                  ud-text-body-color
+                  ud-text-base
+                  ud-leading-relaxed
+                  ud-font-medium
+                  ud-pr-[10px]
+                "
+              >
+                Tuae nam ex similique incidunt expedita exerci tationem
+                laudantium. Repellendus quisquam numquam perferendis earum
+                sapiente non tempore? Fugit repellat ut maiores.
+              </p>
             </div>
           </div>
         </div>
       </div>
-    </section> -->
-    <!-- ======== pricing-section end ======== -->
+    </section>
+    <!-- ====== Features Section End -->
 
-    <!-- ======== testimonial-section start ======== -->
-    <!-- <section id="testimonials" class="testimonial-section">
-      <div class="container">
-        <div class="section-title text-center">
-          <h2 class="mb-30">What our customers says</h2>
-        </div>
-        <div class="testimonial-active-wrapper">
-          <div class="shapes">
-            <img
-              src="assets/img/testimonial/testimonial-shape.svg"
-              alt=""
-              class="shape shape-1"
-            />
-            <img
-              src="assets/img/testimonial/testimonial-dots.svg"
-              alt=""
-              class="shape shape-2"
-            />
-          </div>
-
-          <div class="testimonial-active"> -->
-            <!-- single testimonial -->
-            <!-- <div class="single-testimonial">
-              <div class="row">
-                <div class="col-xl-5 col-lg-5">
-                  <div class="testimonial-img">
-                    <img
-                      src="assets/img/testimonial/testimonial-1.png"
-                      alt=""
-                    />
-                    <div class="quote">
-                      <i class="lni lni-quotation"></i>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-xl-6 offset-xl-1 col-lg-6 offset-lg-1">
-                  <div class="content-wrapper">
-                    <div class="content">
-                      <p>
-                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-                        sed dinonumy eirmod tempor invidunt ut labore et dolore
-                        magna aliquyam erat, sed diam voluptua. At vero eos et
-                        accusam et justo duo dolores et ea rebum. Stet clita
-                        kasd gubergren, no sea takimata sanctus est Lorem.
-                      </p>
-                    </div>
-                    <div class="info">
-                      <h4>Jonathon Smith</h4>
-                      <p>Developer and Youtuber</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div> -->
-
-            <!-- single testimonial -->
-            <!-- <div class="single-testimonial">
-              <div class="row">
-                <div class="col-xl-5">
-                  <div class="testimonial-img">
-                    <img
-                      src="assets/img/testimonial/testimonial-2.png"
-                      alt=""
-                    />
-                    <div class="quote">
-                      <i class="lni lni-quotation"></i>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-xl-6 offset-xl-1">
-                  <div class="content-wrapper">
-                    <div class="content">
-                      <p>
-                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-                        sed dinonumy eirmod tempor invidunt ut labore et dolore
-                        magna aliquyam erat, sed diam voluptua. At vero eos et
-                        accusam et justo duo dolores et ea rebum. Stet clita
-                        kasd gubergren, no sea takimata sanctus est Lorem.
-                      </p>
-                    </div>
-                    <div class="info">
-                      <h4>Gray Simon</h4>
-                      <p>UIX Designer and Developer</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div> -->
-
-            <!-- single testimonial -->
-            <!-- <div class="single-testimonial">
-              <div class="row">
-                <div class="col-xl-5">
-                  <div class="testimonial-img">
-                    <img
-                      src="assets/img/testimonial/testimonial-3.png"
-                      alt=""
-                    />
-                    <div class="quote">
-                      <i class="lni lni-quotation"></i>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-xl-6 offset-xl-1">
-                  <div class="content-wrapper">
-                    <div class="content">
-                      <p>
-                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-                        sed dinonumy eirmod tempor invidunt ut labore et dolore
-                        magna aliquyam erat, sed diam voluptua. At vero eos et
-                        accusam et justo duo dolores et ea rebum. Stet clita
-                        kasd gubergren, no sea takimata sanctus est Lorem.
-                      </p>
-                    </div>
-                    <div class="info">
-                      <h4>Michel Smith</h4>
-                      <p>Traveler and Vloger</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+    <!-- ====== Video Section Start -->
+    <section class="ud-relative ud-z-10 ud-py-[120px]">
+      <div class="ud-container">
+        <div class="ud-flex ud-flex-wrap ud-mx-[-16px]">
+          <div class="ud-w-full ud-px-4">
+            <div
+              class="
+                ud-mx-auto ud-max-w-[570px] ud-text-center ud-mb-20
+                wow
+                fadeInUp
+              "
+              data-wow-delay=".1s"
+            >
+              <h2
+                class="
+                  ud-text-black
+                  dark:ud-text-white
+                  ud-font-bold ud-text-3xl
+                  sm:ud-text-4xl
+                  md:ud-text-[45px]
+                  ud-mb-4
+                "
+              >
+                Product Demo
+              </h2>
+              <p
+                class="
+                  ud-text-body-color ud-text-base
+                  md:ud-text-lg
+                  ud-leading-relaxed
+                  md:ud-leading-relaxed
+                "
+              >
+                There are many variations of passages of Lorem Ipsum available
+                but the majority have suffered alteration in some form.
+              </p>
             </div>
           </div>
         </div>
-      </div>
-    </section> -->
-    <!-- ======== testimonial-section end ======== -->
-
-    <!-- ======== subscribe-section start ======== -->
-    <section id="contact" class="subscribe-section pt-120">
-      <div id= "form_id">
-
-         <!-- form.123formbuilder.com script begins here --><script type="text/javascript" defer src="https://form.123formbuilder.com/embed/6090710.js" data-role="form" data-default-width="650px"></script><!-- form.123formbuilder.com script ends here -->
-</div>
-        </section>
-    <!-- ======== subscribe-section end ======== -->
-
-    <!-- ======== footer start ======== -->
-    <!-- ======== footer start ======== -->
-    <footer class="footer">
-      <div class="container">
-        <div class="widget-wrapper">
-          <div class="row">
-            <div class="col-xl-4 col-lg-4 col-md-6">
-              <div class="footer-widget">
-                <div class="logo mb-30">
-                  <a href="index.html">
-                    <img width=30% src="assets/img/logo/logo-custom.png" alt="" />
+        <div class="ud-flex ud-flex-wrap ud-mx-[-16px]">
+          <div class="ud-w-full ud-px-4">
+            <div
+              class="
+                ud-mx-auto ud-max-w-[770px] ud-rounded-md ud-overflow-hidden
+                wow
+                fadeInUp
+              "
+              data-wow-delay=".15s"
+            >
+              <div class="ud-relative ud-items-center ud-justify-center">
+                <img
+                  src="images/video/video.jpg"
+                  alt="video image"
+                  class="ud-w-full ud-h-full ud-object-cover ud-object-center"
+                />
+                <div
+                  class="
+                    ud-absolute
+                    ud-w-full
+                    ud-h-full
+                    ud-top-0
+                    ud-right-0
+                    ud-flex
+                    ud-items-center
+                    ud-justify-center
+                  "
+                >
+                  <a
+                    href="javascript:void(0)"
+                    class="
+                      glightbox
+                      ud-w-[70px]
+                      ud-h-[70px]
+                      ud-rounded-full
+                      ud-flex
+                      ud-items-center
+                      ud-justify-center
+                      ud-bg-white
+                      ud-bg-opacity-75
+                      ud-text-primary
+                      hover:ud-bg-opacity-100
+                      ud-transition
+                    "
+                  >
+                    <svg
+                      width="16"
+                      height="18"
+                      viewBox="0 0 16 18"
+                      class="ud-fill-current"
+                    >
+                      <path
+                        d="M15.5 8.13397C16.1667 8.51888 16.1667 9.48112 15.5 9.86602L2 17.6603C1.33333 18.0452 0.499999 17.564 0.499999 16.7942L0.5 1.20577C0.5 0.43597 1.33333 -0.0451549 2 0.339745L15.5 8.13397Z"
+                      />
+                    </svg>
                   </a>
                 </div>
-                <p class="desc mb-30 text-white">
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                  dinonumy eirmod tempor invidunt.
-                </p>
-                <ul class="socials">
-              
-                  <li>
-                    <a href="jvascript:void(0)">
-                      <i class="lni lni-twitter-filled"></i>
-                    </a>
-                  </li>
-                 
-                  <li>
-                    <a href="jvascript:void(0)">
-                      <i class="lni lni-linkedin-original"></i>
-                    </a>
-                  </li>
-                </ul>
               </div>
             </div>
-
-            <div class="col-xl-2 col-lg-2 col-md-6">
-              <div class="footer-widget">
-                <ul class="links">
-                  <li><a href="#home">Home</a></li>
-                  <li><a href="#features">Our Advantage</a></li>
-                  <li><a href="#about">How it works</a></li>
-                  <li><a href="#contact">Contact us</a></li>
-                </ul>
-              </div>
-            </div>
-
           </div>
         </div>
       </div>
+      <div class="ud-absolute ud-bottom-0 ud-left-0 ud-right-0 ud-z-[-1]">
+        <img src="images/video/shape.svg" alt="shape" class="ud-w-full" />
+      </div>
+    </section>
+    <!-- ====== Video Section End -->
+
+
+    <!-- ====== About Section Start -->
+    <section id="about" class="ud-pt-[120px]">
+      <div class="ud-container">
+        <div
+          class="
+            ud-pb-[100px] ud-border-b ud-border-white ud-border-opacity-[.15]
+          "
+        >
+          <div class="ud-flex ud-flex-wrap ud-items-center ud-mx-[-16px]">
+            <div class="ud-w-full lg:ud-w-1/2 ud-px-4">
+              <div
+                class="ud-mb-12 lg:ud-mb-0 ud-max-w-[570px] wow fadeInUp"
+                data-wow-delay=".15s"
+              >
+                <h2
+                  class="
+                    ud-text-black
+                    dark:ud-text-white
+                    ud-font-bold ud-text-3xl
+                    sm:ud-text-4xl
+                    md:ud-text-[45px]
+                    lg:ud-text-4xl
+                    xl:ud-text-[45px]
+                    ud-leading-tight
+                    sm:ud-leading-tight
+                    md:ud-leading-tight
+                    lg:ud-leading-tight
+                    xl:ud-leading-tight
+                    ud-mb-6
+                  "
+                >
+                Access Lawn Mower with a teleoperation
+                </h2>
+                <p
+                  class="
+                    ud-font-medium ud-text-body-color ud-text-base
+                    sm:ud-text-lg
+                    ud-leading-relaxed
+                    sm:ud-leading-relaxed
+                    ud-mb-11
+                  "
+                >
+                  We build solutions for the lawn mowers that enables the control of the mower through remote operations
+                </p>
+                <div class="ud-flex ud-flex-wrap ud-mx-[-12px]">
+                  <div
+                    class="
+                      ud-w-full
+                      sm:ud-w-1/2
+                      lg:ud-w-full
+                      xl:ud-w-1/2
+                      ud-px-3
+                    "
+                  >
+                    <p
+                      class="
+                        ud-flex
+                        ud-items-center
+                        ud-text-body-color
+                        ud-text-lg
+                        ud-font-medium
+                        ud-mb-5
+                      "
+                    >
+                      <span
+                        class="
+                          ud-w-[30px]
+                          ud-h-[30px]
+                          ud-flex
+                          ud-items-center
+                          ud-justify-center
+                          ud-rounded-md
+                          ud-bg-primary
+                          ud-bg-opacity-10
+                          ud-text-primary
+                          ud-mr-4
+                        "
+                      >
+                        <svg
+                          width="16"
+                          height="13"
+                          viewBox="0 0 16 13"
+                          class="ud-fill-current"
+                        >
+                          <path
+                            d="M5.8535 12.6631C5.65824 12.8584 5.34166 12.8584 5.1464 12.6631L0.678505 8.1952C0.483242 7.99994 0.483242 7.68336 0.678505 7.4881L2.32921 5.83739C2.52467 5.64193 2.84166 5.64216 3.03684 5.83791L5.14622 7.95354C5.34147 8.14936 5.65859 8.14952 5.85403 7.95388L13.3797 0.420561C13.575 0.22513 13.8917 0.225051 14.087 0.420383L15.7381 2.07143C15.9333 2.26669 15.9333 2.58327 15.7381 2.77854L5.8535 12.6631Z"
+                          />
+                        </svg>
+                      </span>
+                      Custom build mower
+                    </p>
+                    <p
+                      class="
+                        ud-flex
+                        ud-items-center
+                        ud-text-body-color
+                        ud-text-lg
+                        ud-font-medium
+                        ud-mb-5
+                      "
+                    >
+                      <span
+                        class="
+                          ud-w-[30px]
+                          ud-h-[30px]
+                          ud-flex
+                          ud-items-center
+                          ud-justify-center
+                          ud-rounded-md
+                          ud-bg-primary
+                          ud-bg-opacity-10
+                          ud-text-primary
+                          ud-mr-4
+                        "
+                      >
+                        <svg
+                          width="16"
+                          height="13"
+                          viewBox="0 0 16 13"
+                          class="ud-fill-current"
+                        >
+                          <path
+                            d="M5.8535 12.6631C5.65824 12.8584 5.34166 12.8584 5.1464 12.6631L0.678505 8.1952C0.483242 7.99994 0.483242 7.68336 0.678505 7.4881L2.32921 5.83739C2.52467 5.64193 2.84166 5.64216 3.03684 5.83791L5.14622 7.95354C5.34147 8.14936 5.65859 8.14952 5.85403 7.95388L13.3797 0.420561C13.575 0.22513 13.8917 0.225051 14.087 0.420383L15.7381 2.07143C15.9333 2.26669 15.9333 2.58327 15.7381 2.77854L5.8535 12.6631Z"
+                          />
+                        </svg>
+                      </span>
+                      Retrofit existing mower
+                    </p>
+                    <p
+                      class="
+                        ud-flex
+                        ud-items-center
+                        ud-text-body-color
+                        ud-text-lg
+                        ud-font-medium
+                        ud-mb-5
+                      "
+                    >
+                      <span
+                        class="
+                          ud-w-[30px]
+                          ud-h-[30px]
+                          ud-flex
+                          ud-items-center
+                          ud-justify-center
+                          ud-rounded-md
+                          ud-bg-primary
+                          ud-bg-opacity-10
+                          ud-text-primary
+                          ud-mr-4
+                        "
+                      >
+                        <svg
+                          width="16"
+                          height="13"
+                          viewBox="0 0 16 13"
+                          class="ud-fill-current"
+                        >
+                          <path
+                            d="M5.8535 12.6631C5.65824 12.8584 5.34166 12.8584 5.1464 12.6631L0.678505 8.1952C0.483242 7.99994 0.483242 7.68336 0.678505 7.4881L2.32921 5.83739C2.52467 5.64193 2.84166 5.64216 3.03684 5.83791L5.14622 7.95354C5.34147 8.14936 5.65859 8.14952 5.85403 7.95388L13.3797 0.420561C13.575 0.22513 13.8917 0.225051 14.087 0.420383L15.7381 2.07143C15.9333 2.26669 15.9333 2.58327 15.7381 2.77854L5.8535 12.6631Z"
+                          />
+                        </svg>
+                      </span>
+                      Auto stop feature
+                    </p>
+                  </div>
+                  <div
+                    class="
+                      ud-w-full
+                      sm:ud-w-1/2
+                      lg:ud-w-full
+                      xl:ud-w-1/2
+                      ud-px-3
+                    "
+                  >
+                    <p
+                      class="
+                        ud-flex
+                        ud-items-center
+                        ud-text-body-color
+                        ud-text-lg
+                        ud-font-medium
+                        ud-mb-5
+                      "
+                    >
+                      <span
+                        class="
+                          ud-w-[30px]
+                          ud-h-[30px]
+                          ud-flex
+                          ud-items-center
+                          ud-justify-center
+                          ud-rounded-md
+                          ud-bg-primary
+                          ud-bg-opacity-10
+                          ud-text-primary
+                          ud-mr-4
+                        "
+                      >
+                        <svg
+                          width="16"
+                          height="13"
+                          viewBox="0 0 16 13"
+                          class="ud-fill-current"
+                        >
+                          <path
+                            d="M5.8535 12.6631C5.65824 12.8584 5.34166 12.8584 5.1464 12.6631L0.678505 8.1952C0.483242 7.99994 0.483242 7.68336 0.678505 7.4881L2.32921 5.83739C2.52467 5.64193 2.84166 5.64216 3.03684 5.83791L5.14622 7.95354C5.34147 8.14936 5.65859 8.14952 5.85403 7.95388L13.3797 0.420561C13.575 0.22513 13.8917 0.225051 14.087 0.420383L15.7381 2.07143C15.9333 2.26669 15.9333 2.58327 15.7381 2.77854L5.8535 12.6631Z"
+                          />
+                        </svg>
+                      </span>
+                      High speed internet sites
+                    </p>
+                    <p
+                      class="
+                        ud-flex
+                        ud-items-center
+                        ud-text-body-color
+                        ud-text-lg
+                        ud-font-medium
+                        ud-mb-5
+                      "
+                    >
+                      <span
+                        class="
+                          ud-w-[30px]
+                          ud-h-[30px]
+                          ud-flex
+                          ud-items-center
+                          ud-justify-center
+                          ud-rounded-md
+                          ud-bg-primary
+                          ud-bg-opacity-10
+                          ud-text-primary
+                          ud-mr-4
+                        "
+                      >
+                        <svg
+                          width="16"
+                          height="13"
+                          viewBox="0 0 16 13"
+                          class="ud-fill-current"
+                        >
+                          <path
+                            d="M5.8535 12.6631C5.65824 12.8584 5.34166 12.8584 5.1464 12.6631L0.678505 8.1952C0.483242 7.99994 0.483242 7.68336 0.678505 7.4881L2.32921 5.83739C2.52467 5.64193 2.84166 5.64216 3.03684 5.83791L5.14622 7.95354C5.34147 8.14936 5.65859 8.14952 5.85403 7.95388L13.3797 0.420561C13.575 0.22513 13.8917 0.225051 14.087 0.420383L15.7381 2.07143C15.9333 2.26669 15.9333 2.58327 15.7381 2.77854L5.8535 12.6631Z"
+                          />
+                        </svg>
+                      </span>
+                      Trained Drivers
+                    </p>
+                    <p
+                      class="
+                        ud-flex
+                        ud-items-center
+                        ud-text-body-color
+                        ud-text-lg
+                        ud-font-medium
+                        ud-mb-5
+                      "
+                    >
+                      <span
+                        class="
+                          ud-w-[30px]
+                          ud-h-[30px]
+                          ud-flex
+                          ud-items-center
+                          ud-justify-center
+                          ud-rounded-md
+                          ud-bg-primary
+                          ud-bg-opacity-10
+                          ud-text-primary
+                          ud-mr-4
+                        "
+                      >
+                        <svg
+                          width="16"
+                          height="13"
+                          viewBox="0 0 16 13"
+                          class="ud-fill-current"
+                        >
+                          <path
+                            d="M5.8535 12.6631C5.65824 12.8584 5.34166 12.8584 5.1464 12.6631L0.678505 8.1952C0.483242 7.99994 0.483242 7.68336 0.678505 7.4881L2.32921 5.83739C2.52467 5.64193 2.84166 5.64216 3.03684 5.83791L5.14622 7.95354C5.34147 8.14936 5.65859 8.14952 5.85403 7.95388L13.3797 0.420561C13.575 0.22513 13.8917 0.225051 14.087 0.420383L15.7381 2.07143C15.9333 2.26669 15.9333 2.58327 15.7381 2.77854L5.8535 12.6631Z"
+                          />
+                        </svg>
+                      </span>
+                      AI based sensor technology
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ud-w-full lg:ud-w-1/2 ud-px-4">
+              <div
+                class="ud-text-center lg:ud-text-right wow fadeInUp"
+                data-wow-delay=".2s"
+              >
+                <img
+                  src="images/about/about-image.svg"
+                  alt="about-image"
+                  class="ud-max-w-full ud-mx-auto lg:ud-mr-0"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====== About Section End -->
+
+    <!-- ====== About Section Start -->
+    <section class="ud-pt-[100px] ud-pb-[120px]">
+      <div class="ud-container">
+        <div class="ud-flex ud-flex-wrap ud-items-center ud-mx-[-16px]">
+          <div class="ud-w-full lg:ud-w-1/2 ud-px-4">
+            <div
+              class="
+                ud-text-center
+                lg:ud-text-left
+                ud-mb-12
+                lg:ud-mb-0
+                wow
+                fadeInUp
+              "
+              data-wow-delay=".15s"
+            >
+              <img
+                src="images/about/network.svg"
+                alt="about image"
+                class="ud-max-w-full ud-mx-auto lg:ud-ml-0"
+              />
+            </div>
+          </div>
+          <div class="ud-w-full lg:ud-w-1/2 ud-px-4">
+            <div class="ud-max-w-[470px] wow fadeInUp" data-wow-delay=".2s">
+              <div class="ud-mb-9">
+                <h3
+                  class="
+                    ud-font-bold ud-text-black
+                    dark:ud-text-white
+                    ud-text-xl
+                    sm:ud-text-2xl
+                    lg:ud-text-xl
+                    xl:ud-text-2xl
+                    ud-mb-4
+                  "
+                >
+                Cutting-edge, real-time communications
+                </h3>
+                <p
+                  class="
+                    ud-text-body-color ud-text-base
+                    sm:ud-text-lg
+                    ud-leading-relaxed
+                    sm:ud-leading-relaxed
+                    ud-font-medium
+                  "
+                >
+                Telarobo leverages existing network infrastructure to safely transmit data between widely spread endpoints using reliable, secure protocols and APIs. Telarobo also monitors end-to-end network health, so if any major network disruption takes place, the lawn mower will safely stop.
+                </p>
+              </div>
+              <div class="ud-mb-9">
+                <h3
+                  class="
+                    ud-font-bold ud-text-black
+                    dark:ud-text-white
+                    ud-text-xl
+                    sm:ud-text-2xl
+                    lg:ud-text-xl
+                    xl:ud-text-2xl
+                    ud-mb-4
+                  "
+                >
+                Low latency, high safety and precision
+                </h3>
+                <p
+                  class="
+                    ud-text-body-color ud-text-base
+                    sm:ud-text-lg
+                    ud-leading-relaxed
+                    sm:ud-leading-relaxed
+                    ud-font-medium
+                  "
+                >
+                We provide a lawn mowing experience that exceeds the greatest standards, with end-to-end latency as low as 300ms using advanced IoT solutions. This combination of low latency, secure network streaming, and unmatched flexibility is unique.
+                </p>
+              </div>
+              <!-- <div class="ud-mb-1">
+                <h3
+                  class="
+                    ud-font-bold ud-text-black
+                    dark:ud-text-white
+                    ud-text-xl
+                    sm:ud-text-2xl
+                    lg:ud-text-xl
+                    xl:ud-text-2xl
+                    ud-mb-4
+                  "
+                >
+                  Regular updates
+                </h3>
+                <p
+                  class="
+                    ud-text-body-color ud-text-base
+                    sm:ud-text-lg
+                    ud-leading-relaxed
+                    sm:ud-leading-relaxed
+                    ud-font-medium
+                  "
+                >
+                  Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt
+                  consectetur adipiscing elit setim.
+                </p>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====== About Section End -->
+
+
+    <!-- ====== Contact Section Start -->
+    <section id="contact" class="ud-pt-[120px] ud-pb-20">
+      <div class="ud-container">
+        <div class="ud-flex ud-flex-wrap ud-mx-[-16px]">
+          <div class="ud-w-full lg:ud-w-8/12 ud-px-4">
+            <div
+              class="
+              ud-relative
+              ud-z-10
+              ud-rounded-md
+              ud-bg-primary
+              ud-bg-opacity-[3%]
+              dark:ud-bg-opacity-10
+              ud-p-8
+              sm:ud-p-11
+              lg:ud-p-8
+              xl:ud-p-11
+              ud-mb-5
+              wow
+              fadeInUp
+              "
+              data-wow-delay=".15s
+              "
+            >
+              <h2
+                class="
+                  ud-font-bold ud-text-black
+                  dark:ud-text-white
+                  ud-text-2xl
+                  sm:ud-text-3xl
+                  lg:ud-text-2xl
+                  xl:ud-text-3xl
+                  ud-mb-3
+                "
+              >
+                Contact us
+              </h2>
+              <p
+                class="ud-text-body-color ud-text-base ud-font-medium ud-mb-12"
+              >
+                Our team will get back to you ASAP via email.
+              </p>
+              <form>
+                <div class="ud-flex ud-flex-wrap ud-mx-[-16px]">
+                  <div class="ud-w-full md:ud-w-1/2 ud-px-4">
+                    <div class="ud-mb-8">
+                      <label
+                        for="name"
+                        class="
+                          ud-block ud-text-sm ud-font-medium ud-text-dark
+                          dark:ud-text-white
+                          ud-mb-3
+                        "
+                      >
+                        Your Name
+                      </label>
+                      <input
+                        type="text"
+                        placeholder="Enter your name"
+                        class="
+                          ud-w-full ud-border ud-border-transparent
+                          dark:ud-bg-[#242B51]
+                          ud-rounded-md ud-shadow-one
+                          dark:ud-shadow-signUp
+                          ud-py-3
+                          ud-px-6
+                          ud-text-body-color
+                          ud-text-base
+                          ud-placeholder-body-color
+                          ud-outline-none
+                          focus-visible:ud-shadow-none
+                          focus:ud-border-primary
+                        "
+                      />
+                    </div>
+                  </div>
+                  <div class="ud-w-full md:ud-w-1/2 ud-px-4">
+                    <div class="ud-mb-8">
+                      <label
+                        for="email"
+                        class="
+                          ud-block ud-text-sm ud-font-medium ud-text-dark
+                          dark:ud-text-white
+                          ud-mb-3
+                        "
+                      >
+                        Your Email
+                      </label>
+                      <input
+                        type="email"
+                        placeholder="Enter your email"
+                        class="
+                          ud-w-full ud-border ud-border-transparent
+                          dark:ud-bg-[#242B51]
+                          ud-rounded-md ud-shadow-one
+                          dark:ud-shadow-signUp
+                          ud-py-3
+                          ud-px-6
+                          ud-text-body-color
+                          ud-text-base
+                          ud-placeholder-body-color
+                          ud-outline-none
+                          focus-visible:ud-shadow-none
+                          focus:ud-border-primary
+                        "
+                      />
+                    </div>
+                  </div>
+                  <div class="ud-w-full ud-px-4">
+                    <div class="ud-mb-8">
+                      <label
+                        for="message"
+                        class="
+                          ud-block ud-text-sm ud-font-medium ud-text-dark
+                          dark:ud-text-white
+                          ud-mb-3
+                        "
+                      >
+                        Your Message
+                      </label>
+                      <textarea
+                        name="message"
+                        rows="5"
+                        placeholder="Enter your Message"
+                        class="
+                          ud-w-full ud-border ud-border-transparent
+                          dark:ud-bg-[#242B51]
+                          ud-rounded-md ud-shadow-one
+                          dark:ud-shadow-signUp
+                          ud-py-3
+                          ud-px-6
+                          ud-text-body-color
+                          ud-text-base
+                          ud-placeholder-body-color
+                          ud-outline-none
+                          focus-visible:ud-shadow-none
+                          focus:ud-border-primary
+                          ud-resize-none
+                        "
+                      ></textarea>
+                    </div>
+                  </div>
+                  <div class="ud-w-full ud-px-4">
+                    <a
+                      href="javascript:void(0)"
+                      class="
+                        ud-text-base
+                        ud-font-medium
+                        ud-text-white
+                        ud-bg-primary
+                        ud-py-4
+                        ud-px-9
+                        hover:ud-bg-opacity-80 hover:ud-shadow-signUp
+                        ud-rounded-md
+                        ud-transition
+                        ud-duration-300
+                        ud-ease-in-out
+                      "
+                    >
+                      Submit
+                    </a>
+                  </div>
+                </div>
+              </form>
+              <div class="ud-absolute ud-top-0 ud-left-0 ud-z-[-1]">
+                <svg
+                  width="370"
+                  height="596"
+                  viewBox="0 0 370 596"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <mask
+                    id="mask0_88:141"
+                    style="mask-type: alpha"
+                    maskUnits="userSpaceOnUse"
+                    x="0"
+                    y="0"
+                    width="370"
+                    height="596"
+                  >
+                    <rect width="370" height="596" rx="2" fill="#1D2144" />
+                  </mask>
+                  <g mask="url(#mask0_88:141)">
+                    <path
+                      opacity="0.15"
+                      d="M15.4076 50.9571L54.1541 99.0711L71.4489 35.1605L15.4076 50.9571Z"
+                      fill="url(#paint0_linear_88:141)"
+                    />
+                    <path
+                      opacity="0.15"
+                      d="M20.7137 501.422L44.6431 474.241L6 470.624L20.7137 501.422Z"
+                      fill="url(#paint1_linear_88:141)"
+                    />
+                    <path
+                      opacity="0.1"
+                      d="M331.676 198.309C344.398 204.636 359.168 194.704 358.107 180.536C357.12 167.363 342.941 159.531 331.265 165.71C318.077 172.69 318.317 191.664 331.676 198.309Z"
+                      fill="url(#paint2_linear_88:141)"
+                    />
+                    <g opacity="0.3">
+                      <path
+                        d="M209 89.9999C216 77.3332 235.7 50.7999 258.5 45.9999C287 39.9999 303 41.9999 314 30.4999C325 18.9999 334 -3.50014 357 -3.50014C380 -3.50014 395 4.99986 408.5 -8.50014C422 -22.0001 418.5 -46.0001 452 -37.5001C478.8 -30.7001 515.167 -45 530 -53"
+                        stroke="url(#paint3_linear_88:141)"
+                      />
+                      <path
+                        d="M251 64.9999C258 52.3332 277.7 25.7999 300.5 20.9999C329 14.9999 345 16.9999 356 5.49986C367 -6.00014 376 -28.5001 399 -28.5001C422 -28.5001 437 -20.0001 450.5 -33.5001C464 -47.0001 460.5 -71.0001 494 -62.5001C520.8 -55.7001 557.167 -70 572 -78"
+                        stroke="url(#paint4_linear_88:141)"
+                      />
+                      <path
+                        d="M212 73.9999C219 61.3332 238.7 34.7999 261.5 29.9999C290 23.9999 306 25.9999 317 14.4999C328 2.99986 337 -19.5001 360 -19.5001C383 -19.5001 398 -11.0001 411.5 -24.5001C425 -38.0001 421.5 -62.0001 455 -53.5001C481.8 -46.7001 518.167 -61 533 -69"
+                        stroke="url(#paint5_linear_88:141)"
+                      />
+                      <path
+                        d="M249 40.9999C256 28.3332 275.7 1.79986 298.5 -3.00014C327 -9.00014 343 -7.00014 354 -18.5001C365 -30.0001 374 -52.5001 397 -52.5001C420 -52.5001 435 -44.0001 448.5 -57.5001C462 -71.0001 458.5 -95.0001 492 -86.5001C518.8 -79.7001 555.167 -94 570 -102"
+                        stroke="url(#paint6_linear_88:141)"
+                      />
+                    </g>
+                  </g>
+                  <defs>
+                    <linearGradient
+                      id="paint0_linear_88:141"
+                      x1="13.4497"
+                      y1="63.5059"
+                      x2="81.144"
+                      y2="41.5072"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stop-color="white" />
+                      <stop offset="1" stop-color="white" stop-opacity="0" />
+                    </linearGradient>
+                    <linearGradient
+                      id="paint1_linear_88:141"
+                      x1="28.1579"
+                      y1="501.301"
+                      x2="8.69936"
+                      y2="464.391"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stop-color="white" />
+                      <stop offset="1" stop-color="white" stop-opacity="0" />
+                    </linearGradient>
+                    <linearGradient
+                      id="paint2_linear_88:141"
+                      x1="338"
+                      y1="167"
+                      x2="349.488"
+                      y2="200.004"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stop-color="white" />
+                      <stop offset="1" stop-color="white" stop-opacity="0" />
+                    </linearGradient>
+                    <linearGradient
+                      id="paint3_linear_88:141"
+                      x1="369.5"
+                      y1="-53"
+                      x2="369.5"
+                      y2="89.9999"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stop-color="white" />
+                      <stop offset="1" stop-color="white" stop-opacity="0" />
+                    </linearGradient>
+                    <linearGradient
+                      id="paint4_linear_88:141"
+                      x1="411.5"
+                      y1="-78"
+                      x2="411.5"
+                      y2="64.9999"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stop-color="white" />
+                      <stop offset="1" stop-color="white" stop-opacity="0" />
+                    </linearGradient>
+                    <linearGradient
+                      id="paint5_linear_88:141"
+                      x1="372.5"
+                      y1="-69"
+                      x2="372.5"
+                      y2="73.9999"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stop-color="white" />
+                      <stop offset="1" stop-color="white" stop-opacity="0" />
+                    </linearGradient>
+                    <linearGradient
+                      id="paint6_linear_88:141"
+                      x1="409.5"
+                      y1="-102"
+                      x2="409.5"
+                      y2="40.9999"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stop-color="white" />
+                      <stop offset="1" stop-color="white" stop-opacity="0" />
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="ud-w-full lg:ud-w-4/12 ud-px-4">
+            <div
+              class="
+                ud-relative
+                ud-z-10
+                ud-rounded-md
+                ud-bg-primary
+                ud-bg-opacity-[3%]
+                dark:ud-bg-opacity-10
+                ud-p-8
+                sm:ud-p-11
+                lg:ud-p-8
+                xl:ud-p-11
+                ud-mb-5
+                wow
+                fadeInUp
+              "
+              data-wow-delay=".2s
+              "
+            >
+              <h3
+                class="
+                  ud-text-black
+                  dark:ud-text-white
+                  ud-font-bold ud-text-2xl ud-leading-tight ud-mb-4
+                "
+              >
+              <img
+              src="images/logo/logo-custom.png"
+              alt="logo"
+              width="50%"
+            />
+              </h3>
+              <p
+                class="
+                  ud-font-medium
+                  ud-text-base
+                  ud-text-white
+                  ud-leading-relaxed
+                  ud-pb-11
+                  ud-mb-11
+                  
+                  ud-border-body-color
+                  ud-border-opacity-25
+                "
+              >
+              <br>
+              Ask about partnership opportunities or a demonstration of our product.
+              <br><br>
+              Exploring solutions for autonomous lawn mower?
+              <br>
+              Ask how our technology can fit your needs.
+              <p
+                class="
+                  ud-font-medium
+                  ud-text-base
+                  ud-text-white
+                  ud-leading-relaxed
+                  ud-pb-11
+                  ud-mb-11
+                  ud-border-b
+                  ud-border-body-color
+                  ud-border-opacity-25
+                  dark:ud-border-white dark:ud-border-opacity-25
+                "
+              >
+              <a style="color:#AAE051;" href="mailto:info@telarobo.com">info@telarobo.com</a>
+              </p>
+             
+              <div class="ud-absolute ud-top-0 ud-left-0 ud-z-[-1]">
+                <svg
+                  width="370"
+                  height="596"
+                  viewBox="0 0 370 596"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <mask
+                    id="mask0_88:141"
+                    style="mask-type: alpha"
+                    maskUnits="userSpaceOnUse"
+                    x="0"
+                    y="0"
+                    width="370"
+                    height="596"
+                  >
+                    <rect width="370" height="596" rx="2" fill="#1D2144" />
+                  </mask>
+                  <g mask="url(#mask0_88:141)">
+                    <path
+                      opacity="0.15"
+                      d="M15.4076 50.9571L54.1541 99.0711L71.4489 35.1605L15.4076 50.9571Z"
+                      fill="url(#paint0_linear_88:141)"
+                    />
+                    <path
+                      opacity="0.15"
+                      d="M20.7137 501.422L44.6431 474.241L6 470.624L20.7137 501.422Z"
+                      fill="url(#paint1_linear_88:141)"
+                    />
+                    <path
+                      opacity="0.1"
+                      d="M331.676 198.309C344.398 204.636 359.168 194.704 358.107 180.536C357.12 167.363 342.941 159.531 331.265 165.71C318.077 172.69 318.317 191.664 331.676 198.309Z"
+                      fill="url(#paint2_linear_88:141)"
+                    />
+                    <g opacity="0.3">
+                      <path
+                        d="M209 89.9999C216 77.3332 235.7 50.7999 258.5 45.9999C287 39.9999 303 41.9999 314 30.4999C325 18.9999 334 -3.50014 357 -3.50014C380 -3.50014 395 4.99986 408.5 -8.50014C422 -22.0001 418.5 -46.0001 452 -37.5001C478.8 -30.7001 515.167 -45 530 -53"
+                        stroke="url(#paint3_linear_88:141)"
+                      />
+                      <path
+                        d="M251 64.9999C258 52.3332 277.7 25.7999 300.5 20.9999C329 14.9999 345 16.9999 356 5.49986C367 -6.00014 376 -28.5001 399 -28.5001C422 -28.5001 437 -20.0001 450.5 -33.5001C464 -47.0001 460.5 -71.0001 494 -62.5001C520.8 -55.7001 557.167 -70 572 -78"
+                        stroke="url(#paint4_linear_88:141)"
+                      />
+                      <path
+                        d="M212 73.9999C219 61.3332 238.7 34.7999 261.5 29.9999C290 23.9999 306 25.9999 317 14.4999C328 2.99986 337 -19.5001 360 -19.5001C383 -19.5001 398 -11.0001 411.5 -24.5001C425 -38.0001 421.5 -62.0001 455 -53.5001C481.8 -46.7001 518.167 -61 533 -69"
+                        stroke="url(#paint5_linear_88:141)"
+                      />
+                      <path
+                        d="M249 40.9999C256 28.3332 275.7 1.79986 298.5 -3.00014C327 -9.00014 343 -7.00014 354 -18.5001C365 -30.0001 374 -52.5001 397 -52.5001C420 -52.5001 435 -44.0001 448.5 -57.5001C462 -71.0001 458.5 -95.0001 492 -86.5001C518.8 -79.7001 555.167 -94 570 -102"
+                        stroke="url(#paint6_linear_88:141)"
+                      />
+                    </g>
+                  </g>
+                  <defs>
+                    <linearGradient
+                      id="paint0_linear_88:141"
+                      x1="13.4497"
+                      y1="63.5059"
+                      x2="81.144"
+                      y2="41.5072"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stop-color="white" />
+                      <stop offset="1" stop-color="white" stop-opacity="0" />
+                    </linearGradient>
+                    <linearGradient
+                      id="paint1_linear_88:141"
+                      x1="28.1579"
+                      y1="501.301"
+                      x2="8.69936"
+                      y2="464.391"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stop-color="white" />
+                      <stop offset="1" stop-color="white" stop-opacity="0" />
+                    </linearGradient>
+                    <linearGradient
+                      id="paint2_linear_88:141"
+                      x1="338"
+                      y1="167"
+                      x2="349.488"
+                      y2="200.004"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stop-color="white" />
+                      <stop offset="1" stop-color="white" stop-opacity="0" />
+                    </linearGradient>
+                    <linearGradient
+                      id="paint3_linear_88:141"
+                      x1="369.5"
+                      y1="-53"
+                      x2="369.5"
+                      y2="89.9999"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stop-color="white" />
+                      <stop offset="1" stop-color="white" stop-opacity="0" />
+                    </linearGradient>
+                    <linearGradient
+                      id="paint4_linear_88:141"
+                      x1="411.5"
+                      y1="-78"
+                      x2="411.5"
+                      y2="64.9999"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stop-color="white" />
+                      <stop offset="1" stop-color="white" stop-opacity="0" />
+                    </linearGradient>
+                    <linearGradient
+                      id="paint5_linear_88:141"
+                      x1="372.5"
+                      y1="-69"
+                      x2="372.5"
+                      y2="73.9999"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stop-color="white" />
+                      <stop offset="1" stop-color="white" stop-opacity="0" />
+                    </linearGradient>
+                    <linearGradient
+                      id="paint6_linear_88:141"
+                      x1="409.5"
+                      y1="-102"
+                      x2="409.5"
+                      y2="40.9999"
+                      gradientUnits="userSpaceOnUse"
+                    >
+                      <stop stop-color="white" />
+                      <stop offset="1" stop-color="white" stop-opacity="0" />
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====== Contact Section End -->
+
+    <!-- ====== Footer Section Start -->
+    <footer
+      class="
+        ud-relative ud-z-10 ud-bg-primary ud-bg-opacity-5 ud-pt-[100px]
+        wow
+        fadeInUp
+      "
+      data-wow-delay=".1s"
+    >
+      <div class="ud-container">
+        <div class="ud-flex ud-flex-wrap ud-mx-[-16px]">
+          <div class="ud-w-full md:ud-w-1/2 lg:ud-w-4/12 xl:ud-w-5/12 ud-px-4">
+            <div class="ud-mb-16 ud-max-w-[360px]">
+              <a href="index.html" class="ud-inline-block ud-mb-8">
+                <img
+                  src="images/logo/logo-2.svg"
+                  alt="logo"
+                  class="ud-w-full dark:ud-hidden"
+                />
+                <img
+                  src="images/logo/logo-custom.png"
+                  alt="logo"
+                  width="40%"
+                />
+              </a>
+              <p
+                class="
+                  ud-text-body-color
+                  ud-text-base
+                  ud-font-medium
+                  ud-ud-leading-relaxed
+                  ud-mb-9
+                "
+              >
+              Supervised Driverless Lawn Mowing Equipment 
+              </p>
+              <div class="ud-flex ud-items-center">
+                <a
+                  href="javascript:void(0)"
+                  aria-label="social-link"
+                  class="ud-text-[#CED3F6] hover:ud-text-primary ud-mr-6"
+                >
+                  <svg
+                    width="9"
+                    height="18"
+                    viewBox="0 0 9 18"
+                    class="ud-fill-current"
+                  >
+                    <path
+                      d="M8.13643 7H6.78036H6.29605V6.43548V4.68548V4.12097H6.78036H7.79741C8.06378 4.12097 8.28172 3.89516 8.28172 3.55645V0.564516C8.28172 0.254032 8.088 0 7.79741 0H6.02968C4.11665 0 2.78479 1.58064 2.78479 3.92339V6.37903V6.94355H2.30048H0.65382C0.314802 6.94355 0 7.25403 0 7.70564V9.7379C0 10.1331 0.266371 10.5 0.65382 10.5H2.25205H2.73636V11.0645V16.7379C2.73636 17.1331 3.00273 17.5 3.39018 17.5H5.66644C5.81174 17.5 5.93281 17.4153 6.02968 17.3024C6.12654 17.1895 6.19919 16.9919 6.19919 16.8226V11.0927V10.5282H6.70771H7.79741C8.11222 10.5282 8.35437 10.3024 8.4028 9.96371V9.93548V9.90726L8.74182 7.95968C8.76604 7.7621 8.74182 7.53629 8.59653 7.31048C8.54809 7.16935 8.33016 7.02823 8.13643 7Z"
+                    />
+                  </svg>
+                </a>
+                <a
+                  href="javascript:void(0)"
+                  aria-label="social-link"
+                  class="ud-text-[#CED3F6] hover:ud-text-primary ud-mr-6"
+                >
+                  <svg
+                    width="19"
+                    height="14"
+                    viewBox="0 0 19 14"
+                    class="ud-fill-current"
+                  >
+                    <path
+                      d="M16.3024 2.26027L17.375 1.0274C17.6855 0.693493 17.7702 0.436644 17.7984 0.308219C16.9516 0.770548 16.1613 0.924658 15.6532 0.924658H15.4556L15.3427 0.821918C14.6653 0.282534 13.8185 0 12.9153 0C10.9395 0 9.3871 1.48973 9.3871 3.21062C9.3871 3.31336 9.3871 3.46747 9.41532 3.57021L9.5 4.0839L8.90726 4.05822C5.29435 3.95548 2.33065 1.13014 1.85081 0.642123C1.06048 1.92637 1.5121 3.15925 1.99194 3.92979L2.95161 5.36815L1.42742 4.5976C1.45565 5.67637 1.90726 6.52397 2.78226 7.14041L3.54435 7.65411L2.78226 7.93665C3.2621 9.24658 4.33468 9.78596 5.125 9.99144L6.16935 10.2483L5.18145 10.8647C3.60081 11.8921 1.625 11.8151 0.75 11.738C2.52823 12.8682 4.64516 13.125 6.1129 13.125C7.21371 13.125 8.03226 13.0223 8.22984 12.9452C16.1331 11.25 16.5 4.82877 16.5 3.54452V3.36473L16.6694 3.26199C17.629 2.44007 18.0242 2.00342 18.25 1.74658C18.1653 1.77226 18.0524 1.82363 17.9395 1.84932L16.3024 2.26027Z"
+                    />
+                  </svg>
+                </a>
+                <a
+                  href="javascript:void(0)"
+                  aria-label="social-link"
+                  class="ud-text-[#CED3F6] hover:ud-text-primary ud-mr-6"
+                >
+                  <svg
+                    width="18"
+                    height="14"
+                    viewBox="0 0 18 14"
+                    class="ud-fill-current"
+                  >
+                    <path
+                      d="M17.5058 2.07119C17.3068 1.2488 16.7099 0.609173 15.9423 0.395963C14.5778 7.26191e-08 9.0627 0 9.0627 0C9.0627 0 3.54766 7.26191e-08 2.18311 0.395963C1.41555 0.609173 0.818561 1.2488 0.619565 2.07119C0.25 3.56366 0.25 6.60953 0.25 6.60953C0.25 6.60953 0.25 9.68585 0.619565 11.1479C0.818561 11.9703 1.41555 12.6099 2.18311 12.8231C3.54766 13.2191 9.0627 13.2191 9.0627 13.2191C9.0627 13.2191 14.5778 13.2191 15.9423 12.8231C16.7099 12.6099 17.3068 11.9703 17.5058 11.1479C17.8754 9.68585 17.8754 6.60953 17.8754 6.60953C17.8754 6.60953 17.8754 3.56366 17.5058 2.07119ZM7.30016 9.44218V3.77687L11.8771 6.60953L7.30016 9.44218Z"
+                    />
+                  </svg>
+                </a>
+                <a
+                  href="javascript:void(0)"
+                  aria-label="social-link"
+                  class="ud-text-[#CED3F6] hover:ud-text-primary ud-mr-6"
+                >
+                  <svg
+                    width="17"
+                    height="16"
+                    viewBox="0 0 17 16"
+                    class="ud-fill-current"
+                  >
+                    <path
+                      d="M15.2196 0H1.99991C1.37516 0 0.875366 0.497491 0.875366 1.11936V14.3029C0.875366 14.8999 1.37516 15.4222 1.99991 15.4222H15.1696C15.7943 15.4222 16.2941 14.9247 16.2941 14.3029V1.09448C16.3441 0.497491 15.8443 0 15.2196 0ZM5.44852 13.1089H3.17444V5.7709H5.44852V13.1089ZM4.29899 4.75104C3.54929 4.75104 2.97452 4.15405 2.97452 3.43269C2.97452 2.71133 3.57428 2.11434 4.29899 2.11434C5.02369 2.11434 5.62345 2.71133 5.62345 3.43269C5.62345 4.15405 5.07367 4.75104 4.29899 4.75104ZM14.07 13.1089H11.796V9.55183C11.796 8.7061 11.771 7.58674 10.5964 7.58674C9.39693 7.58674 9.222 8.53198 9.222 9.47721V13.1089H6.94792V5.7709H9.17202V6.79076H9.19701C9.52188 6.19377 10.2466 5.59678 11.3711 5.59678C13.6952 5.59678 14.12 7.08925 14.12 9.12897V13.1089H14.07Z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          
+         
+
+         
+        </div>
+      </div>
+      
+      <div class="ud-absolute ud-right-0 ud-top-14 ud-z-[-1]">
+        <svg
+          width="55"
+          height="99"
+          viewBox="0 0 55 99"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle opacity="0.8" cx="49.5" cy="49.5" r="49.5" fill="#959CB1" />
+          <mask
+            id="mask0_94:899"
+            style="mask-type: alpha"
+            maskUnits="userSpaceOnUse"
+            x="0"
+            y="0"
+            width="99"
+            height="99"
+          >
+            <circle opacity="0.8" cx="49.5" cy="49.5" r="49.5" fill="#AAE051" />
+          </mask>
+          <g mask="url(#mask0_94:899)">
+            <circle
+              opacity="0.8"
+              cx="49.5"
+              cy="49.5"
+              r="49.5"
+              fill="url(#paint0_radial_94:899)"
+            />
+            <g opacity="0.8" filter="url(#filter0_f_94:899)">
+              <circle cx="53.8676" cy="26.2061" r="20.3824" fill="white" />
+            </g>
+          </g>
+          <defs>
+            <filter
+              id="filter0_f_94:899"
+              x="12.4852"
+              y="-15.1763"
+              width="82.7646"
+              height="82.7646"
+              filterUnits="userSpaceOnUse"
+              color-interpolation-filters="sRGB"
+            >
+              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feBlend
+                mode="normal"
+                in="SourceGraphic"
+                in2="BackgroundImageFix"
+                result="shape"
+              />
+              <feGaussianBlur
+                stdDeviation="10.5"
+                result="effect1_foregroundBlur_94:899"
+              />
+            </filter>
+            <radialGradient
+              id="paint0_radial_94:899"
+              cx="0"
+              cy="0"
+              r="1"
+              gradientUnits="userSpaceOnUse"
+              gradientTransform="translate(49.5 49.5) rotate(90) scale(53.1397)"
+            >
+              <stop stop-opacity="0.47" />
+              <stop offset="1" stop-opacity="0" />
+            </radialGradient>
+          </defs>
+        </svg>
+      </div>
+      <div class="ud-absolute ud-left-0 ud-bottom-24 ud-z-[-1]">
+        <svg
+          width="79"
+          height="94"
+          viewBox="0 0 79 94"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect
+            opacity="0.3"
+            x="-41"
+            y="26.9426"
+            width="66.6675"
+            height="66.6675"
+            transform="rotate(-22.9007 -41 26.9426)"
+            fill="url(#paint0_linear_94:889)"
+          />
+          <rect
+            x="-41"
+            y="26.9426"
+            width="66.6675"
+            height="66.6675"
+            transform="rotate(-22.9007 -41 26.9426)"
+            stroke="url(#paint1_linear_94:889)"
+            stroke-width="0.7"
+          />
+          <path
+            opacity="0.3"
+            d="M50.5215 7.42229L20.325 1.14771L46.2077 62.3249L77.1885 68.2073L50.5215 7.42229Z"
+            fill="url(#paint2_linear_94:889)"
+          />
+          <path
+            d="M50.5215 7.42229L20.325 1.14771L46.2077 62.3249L76.7963 68.2073L50.5215 7.42229Z"
+            stroke="url(#paint3_linear_94:889)"
+            stroke-width="0.7"
+          />
+          <path
+            opacity="0.3"
+            d="M17.9721 93.3057L-14.9695 88.2076L46.2077 62.325L77.1885 68.2074L17.9721 93.3057Z"
+            fill="url(#paint4_linear_94:889)"
+          />
+          <path
+            d="M17.972 93.3057L-14.1852 88.2076L46.2077 62.325L77.1884 68.2074L17.972 93.3057Z"
+            stroke="url(#paint5_linear_94:889)"
+            stroke-width="0.7"
+          />
+          <defs>
+            <linearGradient
+              id="paint0_linear_94:889"
+              x1="-41"
+              y1="21.8445"
+              x2="36.9671"
+              y2="59.8878"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#AAE051" stop-opacity="0.62" />
+              <stop offset="1" stop-color="#AAE051" stop-opacity="0" />
+            </linearGradient>
+            <linearGradient
+              id="paint1_linear_94:889"
+              x1="25.6675"
+              y1="95.9631"
+              x2="-42.9608"
+              y2="20.668"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#AAE051" stop-opacity="0" />
+              <stop offset="1" stop-color="#AAE051" stop-opacity="0.51" />
+            </linearGradient>
+            <linearGradient
+              id="paint2_linear_94:889"
+              x1="20.325"
+              y1="-3.98039"
+              x2="90.6248"
+              y2="25.1062"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#AAE051" stop-opacity="0.62" />
+              <stop offset="1" stop-color="#AAE051" stop-opacity="0" />
+            </linearGradient>
+            <linearGradient
+              id="paint3_linear_94:889"
+              x1="18.3642"
+              y1="-1.59742"
+              x2="113.9"
+              y2="80.6826"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#AAE051" stop-opacity="0" />
+              <stop offset="1" stop-color="#AAE051" stop-opacity="0.51" />
+            </linearGradient>
+            <linearGradient
+              id="paint4_linear_94:889"
+              x1="61.1098"
+              y1="62.3249"
+              x2="-8.82468"
+              y2="58.2156"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#AAE051" stop-opacity="0.62" />
+              <stop offset="1" stop-color="#AAE051" stop-opacity="0" />
+            </linearGradient>
+            <linearGradient
+              id="paint5_linear_94:889"
+              x1="65.4236"
+              y1="65.0701"
+              x2="24.0178"
+              y2="41.6598"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#AAE051" stop-opacity="0" />
+              <stop offset="1" stop-color="#AAE051" stop-opacity="0.51" />
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
     </footer>
-    <!-- ======== footer end ======== -->
+    <!-- ====== Footer Section End -->
 
-    <!-- ======== scroll-top ======== -->
-    <a href="#" class="scroll-top btn-hover">
-      <i class="lni lni-chevron-up"></i>
+    <!-- ====== Back To Top Start -->
+    <a
+      href="javascript:void(0)"
+      class="
+        ud-hidden
+        ud-items-center
+        ud-justify-center
+        ud-bg-primary
+        ud-text-white
+        ud-w-10
+        ud-h-10
+        ud-rounded-md
+        ud-fixed
+        ud-bottom-8
+        ud-right-8
+        ud-left-auto
+        ud-z-[999]
+        hover:ud-shadow-signUp hover:ud-bg-opacity-80
+        ud-transition ud-duration-300 ud-ease-in-out
+        back-to-top
+        ud-shadow-md
+      "
+    >
+      <span
+        class="
+          ud-w-3
+          ud-h-3
+          ud-border-t
+          ud-border-l
+          ud-border-white
+          ud-rotate-45
+          ud-mt-[6px]
+        "
+      ></span>
     </a>
+    <!-- ====== Back To Top End -->
 
-    <!-- ======== JS here ======== -->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/tiny-slider.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/main.js"></script>
+    <!-- ====== All Scripts -->
+
+    <script src="js/glightbox.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+      // ==== pricing plan toggler
+      let togglePlan = document.querySelector("#togglePlan");
+
+      document.querySelector(".monthly").addEventListener("click", () => {
+        togglePlan.checked = false;
+      });
+      document.querySelector(".yearly").addEventListener("click", () => {
+        togglePlan.checked = true;
+      });
+
+      // ==== for menu scroll
+      const pageLink = document.querySelectorAll(".menu-scroll");
+
+      pageLink.forEach((elem) => {
+        elem.addEventListener("click", (e) => {
+          e.preventDefault();
+          document.querySelector(elem.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
+            offsetTop: 1 - 60,
+          });
+        });
+      });
+
+      // section menu active
+      function onScroll(event) {
+        const sections = document.querySelectorAll(".menu-scroll");
+        const scrollPos =
+          window.pageYOffset ||
+          document.documentElement.scrollTop ||
+          document.body.scrollTop;
+
+        for (let i = 0; i < sections.length; i++) {
+          const currLink = sections[i];
+          const val = currLink.getAttribute("href");
+          const refElement = document.querySelector(val);
+          const scrollTopMinus = scrollPos + 73;
+          if (
+            refElement.offsetTop <= scrollTopMinus &&
+            refElement.offsetTop + refElement.offsetHeight > scrollTopMinus
+          ) {
+            document.querySelector(".menu-scroll").classList.remove("active");
+            currLink.classList.add("active");
+          } else {
+            currLink.classList.remove("active");
+          }
+        }
+      }
+
+      window.document.addEventListener("scroll", onScroll);
+
+      //========= glightbox
+      GLightbox({
+        href: "https://www.youtube.com/watch?v=r44RKWyfcFw&fbclid=IwAR21beSJORalzmzokxDRcGfkZA1AtRTE__l5N4r09HcGS5Y6vOluyouM9EM",
+        type: "video",
+        source: "youtube", //vimeo, youtube or local
+        width: 900,
+        autoplayVideos: true,
+      });
+    </script>
   </body>
 </html>
