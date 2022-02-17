@@ -1528,6 +1528,11 @@ video {
   color: rgba(149, 156, 177, var(--tw-text-opacity));
 }
 
+.ud-text-beige-color{
+  --tw-text-opacity: 1;
+  color: beige;
+}
+
 .ud-text-\[\#CED3F6\]{
   --tw-text-opacity: 1;
   color: rgba(206, 211, 246, var(--tw-text-opacity));
@@ -1809,6 +1814,7 @@ input#checkboxLabel:checked ~ .box span{
 }
 
 .ud-group:hover .group-hover\:ud-opacity-70{
+  color: #AAE051;
   opacity: 0.7;
 }
 
