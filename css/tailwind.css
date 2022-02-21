@@ -1620,6 +1620,13 @@ input[type="checkbox"]:checked ~ label span svg{
   display: inline-flex;
 }
 
+@media (max-width: 960px){
+#navbarCollapse {
+    background-color: #171717;
+  }
+}
+
+
 .sticky{
   position: fixed;
   z-index: 9999;
@@ -2423,3 +2430,4 @@ input#checkboxLabel:checked ~ .box span{
     padding-bottom: 200px;
   }
 }
+
