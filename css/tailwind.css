@@ -658,21 +658,6 @@ video {
   }
 }
 
-.contact_page{
-
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .ud-sr-only{
   position: absolute;
   width: 1px;
@@ -970,15 +955,9 @@ video {
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1140px) {
 .contact_height{
-  margin-top: -40px;
+  margin-top: -50px;
 }
 }
-
-@media only screen and (min-device-width: 1140px) {
-  .contact_height{
-    margin-top: 70px;
-  }
-  }
 
 .ud-h-\[70px\]{
   height: 70px;
@@ -2047,10 +2026,6 @@ input#checkboxLabel:checked ~ .box span{
 
   .md\:ud-w-8\/12{
     width: 66.666667%;
-  }
-
-  .md\:ud-w-6\/12{
-    width: 50%;
   }
 
   .md\:ud-w-4\/12{
